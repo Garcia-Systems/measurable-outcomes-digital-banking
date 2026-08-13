@@ -34,7 +34,7 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 19. [Chapter 18: Incidents: Measuring Detection and Recovery](chapters/part-04-reliability/chapter-18-incidents-measuring-detection-and-recovery.md)
 20. [Chapter 19: Availability, Error Budgets, and Learning Reviews](chapters/part-04-reliability/chapter-19-availability-error-budgets-and-learning-reviews.md)
 
-## Part 5 — Databases and Backend Performance
+## Part 5 — Databases and Backend Performance — **implemented**
 
 21. [Chapter 20: SQL Latency: Measure Before You Tune](chapters/part-05-databases/chapter-20-sql-latency-measure-before-you-tune.md)
 22. [Chapter 21: Indexes and Evidence-Based Optimization](chapters/part-05-databases/chapter-21-indexes-and-evidence-based-optimization.md)

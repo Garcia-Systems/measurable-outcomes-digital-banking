@@ -36,3 +36,12 @@ is used. Run `measure_reliability.py`, `explore_observability.py`,
 `investigate_incident.py`, `measure_incident_response.py`, and
 `run_reliability_experiment.py` from `scripts/`. MTTD means start-to-detection and
 MTTR means start-to-useful-service-restoration throughout these labs.
+
+## Part V: databases and backend performance
+
+Part V creates a fresh deterministic in-memory SQLite database for each experiment:
+five synthetic members, twenty accounts, and 2,000 transactions plus small session
+and verification tables. Run the five Part V commands in the root README. The labs
+combine observed timing with query plans, exact query counts, deterministic modeled
+service time, normalized result hashes, and correctness guardrails. They are teaching
+benchmarks, not a production ledger, profiler, capacity model, or performance promise.

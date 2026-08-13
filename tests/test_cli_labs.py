@@ -27,6 +27,11 @@ class CliLabsTest(unittest.TestCase):
           'scripts/investigate_incident.py':'diagnosis intentionally withheld',
           'scripts/measure_incident_response.py':'MTTR: 32.0 min',
           'scripts/run_reliability_experiment.py':'Overall: PASS',
+          'scripts/measure_query_performance.py':'Executions: 100',
+          'scripts/compare_database_index.py':'AFTER plan:',
+          'scripts/analyze_backend_workload.py':'N+1: queries/request=5',
+          'scripts/simulate_backend_concurrency.py':'Corrected invalid final states: 0',
+          'scripts/run_backend_experiment.py':'Queries/request',
         }
         for script,expected in cases.items():
             with self.subTest(script=script):
