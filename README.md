@@ -4,11 +4,11 @@
 
 This executable textbook teaches developers to connect engineering work to measurable technical, operational, member, and business outcomes. **Harbor Federal Credit Union (Harbor FCU) is entirely fictional.** Every member, account, system, transaction, metric, log, incident, and scenario is synthetic; none describes a real institution or person.
 
-> Don't stop at “What did we build?” Ask “What changed, how do we know, and why does it matter?”
+> **Don't stop at “What did we build?” Ask “What changed, how do we know, and why does it matter?”**
 
 ## Curriculum status
 
-**Parts I–VII, Chapters 0–34, are implemented** as substantive lessons and coherent measurement labs. **Chapters 35–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
+**All eight Parts and all 40 chapters (0–39) are complete**, with substantive lessons, deterministic laboratories, and a final cross-layer engineering review. See [the complete contents](CONTENTS.md).
 
 ## The outcome chain
 
@@ -19,7 +19,7 @@ Engineering activity → system change → observable metric → measured outcom
 
 An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Parts I–VII quick start
+## Install and run
 
 Python 3.10+ and the standard library are the only requirements. Run from the repository root:
 
@@ -60,6 +60,13 @@ python3 scripts/detect_anomalies.py
 python3 scripts/forecast_workload.py
 python3 scripts/prioritize_incidents.py
 python3 scripts/run_intelligence_experiment.py
+python3 scripts/operational_scorecard.py
+python3 scripts/measure_member_outcomes.py
+python3 scripts/estimate_business_value.py
+python3 scripts/report_outcomes.py --audience engineer
+python3 scripts/report_outcomes.py --audience operations
+python3 scripts/report_outcomes.py --audience executive
+python3 scripts/run_capstone.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -87,6 +94,12 @@ Part VI adds regression-detection experiments, known-defect detection and escape
 
 Part VII reuses Harbor API, vendor, database, deployment, alert, and incident telemetry for descriptive grouping, baseline anomaly detection, capacity forecasting, and explainable incident scoring. It compares rules and scoring on identical ground truth, then measures the downstream investigation queue, MTTD, and MTTR in a controlled simulation. The implementation is standard-library only: it demonstrates that predictions are inputs to action—not business outcomes—and does not require an external AI service. See the [Part VII laboratory guide](labs/harbor_fcu/part-07-analytics-automation-ml.md).
 
+Part VIII connects the technical evidence to measured member and operational behavior, explicitly labels measured/derived/assumed/estimated values, and renders quantitative reports for engineers, operations, and executives. Its capstone reviews the synthetic Digital Account Opening Improvement across technical, reliability, delivery, member, operational, and business-relevance layers. See the [Part VIII laboratory guide](labs/harbor_fcu/part-08-business-impact.md).
+
+## Final capstone
+
+Run `python3 scripts/run_capstone.py`. The criteria are declared in code before evaluation, all report values originate in the executable synthetic environment, and unsupported satisfaction, revenue, retention, causality, and realized-savings claims remain explicit non-claims.
+
 ## Repository map
 
 - `chapters/` — eight parts and Chapters 0–39.
@@ -99,4 +112,4 @@ Part VII reuses Harbor API, vendor, database, deployment, alert, and incident te
 
 ## Safety and scope
 
-Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–VII demonstrate evidence-bounded technical, member-experience, integration, incident-response, database, backend, testing, security-control, delivery, analytics, and intelligent-workflow measurement. Production integrations, claims about real institutions, and Chapters 35–39 are out of scope.
+Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Harbor FCU, ClearVerify, HeritageCore, NorthstarPay, and all other vendors are fictional; all member, account, transaction, operational, and financial observations are synthetic. No laboratory contacts an external financial system or AI service. The completed book demonstrates evidence-bounded technical, member, operational, and business-relevance measurement; production integrations and claims about real institutions remain out of scope.

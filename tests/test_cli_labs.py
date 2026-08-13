@@ -37,6 +37,10 @@ class CliLabsTest(unittest.TestCase):
           'scripts/forecast_workload.py':'MAE=0.0 RMSE=0.0',
           'scripts/prioritize_incidents.py':'SCORING MODEL',
           'scripts/run_intelligence_experiment.py':'Workload Guardrail             PASS',
+          'scripts/operational_scorecard.py':'No composite score',
+          'scripts/measure_member_outcomes.py':'NOT ESTABLISHED: member satisfaction',
+          'scripts/estimate_business_value.py':'not actual realized savings',
+          'scripts/run_capstone.py':'Guardrails                   PASS',
         }
         for script,expected in cases.items():
             with self.subTest(script=script):
@@ -46,3 +50,11 @@ class CliLabsTest(unittest.TestCase):
         bad=run('scripts/choose_metric.py','--answer','latency_p95')
         self.assertEqual(good.returncode,0); self.assertIn('Result: PASS',good.stdout)
         self.assertEqual(bad.returncode,1); self.assertIn('TRY AGAIN',bad.stdout)
+
+    def test_part_eight_audiences(self):
+        for audience, expected in (("engineer", "p95 API latency"),
+                                   ("operations", "Support cases"),
+                                   ("executive", "percentage points")):
+            result = run("scripts/report_outcomes.py", "--audience", audience)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertIn(expected, result.stdout)
