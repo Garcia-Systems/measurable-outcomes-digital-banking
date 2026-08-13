@@ -18,3 +18,11 @@ Part II adds a deterministic, entirely fictional account-application journey in
 live in `src/harbor_fcu/member_experience.py`; the five learner-facing commands are
 documented in the repository README. This remains an educational simulation, not a
 production analytics platform.
+
+## Part III: fictional integration laboratory
+
+Part III extends the same environment with deterministic ClearVerify REST,
+HeritageCore SOAP, and NorthstarPay transfer behavior. Adapters never open a
+socket: scenario tables produce normalized telemetry for reliability, tail
+latency, bounded retries, retry exhaustion, and idempotency measurement. Run the
+five Part III commands listed in the repository README from the repository root.

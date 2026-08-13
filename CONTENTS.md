@@ -18,13 +18,13 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 9. [Chapter 8: Measuring an Experience Improvement](chapters/part-02-member-experience/chapter-08-navigation-experiments-and-responsible-conversion-claims.md)
 10. [Chapter 9: From Member Metrics to Business Claims](chapters/part-02-member-experience/chapter-09-mobile-performance-as-a-member-experience-signal.md)
 
-## Part 3 — APIs and Fintech Integrations
+## Part 3 — APIs and Fintech Integrations — **implemented**
 
-11. [Chapter 10: REST Integrations: Define Success Before Coding](chapters/part-03-apis-integrations/chapter-10-rest-integrations-define-success-before-coding.md)
-12. [Chapter 11: SOAP Integrations: Measuring Contract Reliability](chapters/part-03-apis-integrations/chapter-11-soap-integrations-measuring-contract-reliability.md)
-13. [Chapter 12: Timeouts, Retries, and the Cost of Resilience](chapters/part-03-apis-integrations/chapter-12-timeouts-retries-and-the-cost-of-resilience.md)
-14. [Chapter 13: Dependency Failures and Graceful Degradation](chapters/part-03-apis-integrations/chapter-13-dependency-failures-and-graceful-degradation.md)
-15. [Chapter 14: Holding Vendors Accountable with Evidence](chapters/part-03-apis-integrations/chapter-14-holding-vendors-accountable-with-evidence.md)
+11. [Chapter 10: Measuring API Reliability](chapters/part-03-apis-integrations/chapter-10-rest-integrations-define-success-before-coding.md)
+12. [Chapter 11: Latency, Percentiles, and Tail Performance](chapters/part-03-apis-integrations/chapter-11-soap-integrations-measuring-contract-reliability.md)
+13. [Chapter 12: Timeouts, Retries, and Recoverability](chapters/part-03-apis-integrations/chapter-12-timeouts-retries-and-the-cost-of-resilience.md)
+14. [Chapter 13: REST, SOAP, and Integration Adapters](chapters/part-03-apis-integrations/chapter-13-dependency-failures-and-graceful-degradation.md)
+15. [Chapter 14: Measuring an Integration Improvement](chapters/part-03-apis-integrations/chapter-14-holding-vendors-accountable-with-evidence.md)
 
 ## Part 4 — Reliability and Incident Response
 

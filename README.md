@@ -8,7 +8,7 @@ This executable textbook teaches developers to connect engineering work to measu
 
 ## Curriculum status
 
-**Parts I and II, Chapters 0–9, are implemented** as substantive lessons and coherent measurement labs. **Chapters 10–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
+**Parts I–III, Chapters 0–14, are implemented** as substantive lessons and coherent measurement labs. **Chapters 15–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
 
 ## The outcome chain
 
@@ -19,7 +19,7 @@ Engineering activity → system change → observable metric → measured outcom
 
 An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Parts I and II quick start
+## Parts I–III quick start
 
 Python 3.10+ and the standard library are the only requirements. Run from the repository root:
 
@@ -34,6 +34,11 @@ python3 scripts/analyze_funnel.py
 python3 scripts/analyze_completion_time.py
 python3 scripts/compare_experience.py
 python3 scripts/classify_claims.py
+python3 scripts/measure_api_reliability.py
+python3 scripts/analyze_api_latency.py
+python3 scripts/simulate_retries.py
+python3 scripts/compare_integrations.py
+python3 scripts/run_integration_experiment.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -51,6 +56,8 @@ The original `python3 scripts/measure_api_baseline.py` exercise remains availabl
 
 Part II extends the same utilities with deterministic digital-application events, task completion, funnel conversion and abandonment, median/p95 and stage timing, controlled before/after criteria, and evidence-strength classification. Regenerate its committed observations with `python3 scripts/generate_member_journey.py`.
 
+Part III adds network-free fictional integrations: ClearVerify REST member verification, HeritageCore SOAP core lookup, and a minimal NorthstarPay idempotency example. Harbor-owned adapters normalize protocol outcomes into shared telemetry; laboratories measure reliability, latency tails, retry recovery and cost, adapter comparability, and declared before/after criteria.
+
 ## Repository map
 
 - `chapters/` — eight parts and Chapters 0–39.
@@ -63,4 +70,4 @@ Part II extends the same utilities with deterministic digital-application events
 
 ## Safety and scope
 
-Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–II demonstrate evidence-bounded technical and member-experience measurement. Production integrations, claims about real institutions, and Chapters 10–39 are out of scope.
+Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–III demonstrate evidence-bounded technical, member-experience, and integration measurement. Production integrations, claims about real institutions, and Chapters 15–39 are out of scope.

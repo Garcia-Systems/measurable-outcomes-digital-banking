@@ -17,6 +17,11 @@ class CliLabsTest(unittest.TestCase):
           'scripts/analyze_completion_time.py':'p95 completion: 16.18 minutes',
           'scripts/compare_experience.py':'completion_change_points: PASS',
           'scripts/classify_claims.py':'UNSUPPORTED CAUSAL CLAIM',
+          'scripts/measure_api_reliability.py':'Success rate: 94.0%',
+          'scripts/analyze_api_latency.py':'Largest p99 contributor: ClearVerify',
+          'scripts/simulate_retries.py':'processed transfers=1',
+          'scripts/compare_integrations.py':'Normalized REST/SOAP comparison',
+          'scripts/run_integration_experiment.py':'permanent-failure safety       PASS',
         }
         for script,expected in cases.items():
             with self.subTest(script=script):
