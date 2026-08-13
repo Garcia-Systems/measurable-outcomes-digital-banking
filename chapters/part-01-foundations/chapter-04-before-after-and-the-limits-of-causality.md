@@ -105,3 +105,9 @@ A measured technical improvement is valuable evidence, but it is not permission 
 ## Chapter summary
 
 Part I's method is: document the baseline, choose a meaningful metric, predeclare complete criteria, run a comparable experiment, calculate change, and communicate no more than the evidence supports.
+
+## Part transition
+
+Part I established the measurement vocabulary and evidence rules. Part II now applies them to what synthetic members can observe while completing a digital task.
+
+[Previous chapter](chapter-03-targets-thresholds-and-success-criteria.md) | [Contents](../../CONTENTS.md) | [Next chapter](../part-02-member-experience/chapter-05-mapping-the-digital-member-journey.md)

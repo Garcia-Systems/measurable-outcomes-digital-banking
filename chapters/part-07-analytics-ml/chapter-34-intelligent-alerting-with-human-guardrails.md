@@ -89,12 +89,11 @@ Tests cover calculations, deterministic scenarios, baseline/model fairness, down
 
 ## Exercises
 
-1. Compute a four-value confusion matrix by hand and identify the numerator and denominator for precision and recall.
-2. State one decision that could use the measurement and one downstream claim it cannot support.
-3. Compare: rule recall 91%, precision 89%; model recall 95%, precision 61%. Which has better recall? Which has better precision? Which creates more false-positive work? Which is better?
-4. Identify how a changed incident mix or operational cost could reverse a preferred strategy.
+1. Did the scoring approach improve a model metric, the investigation workflow, both, or neither under the declared criteria?
+2. State one supported conclusion and one business claim that remains unestablished.
+3. Identify a population shift that should trigger reevaluation of the rule and scoring baselines.
 
-**Answer key:** The model has better recall; the rule has better precision; given comparable positive populations, the model tends to create more false-positive investigation work. **There is not enough information yet** to say which is better: measure missed-incident cost, false-investigation cost, capacity, and the downstream workflow.
+**Answer key:** Use the executable criteria to answer separately for prediction and downstream MTTD/MTTR or queue work. A supported statement is bounded to the controlled incident set; savings or avoided member harm remain unestablished without those measurements. A changed severity, vendor, endpoint, or incident-frequency mix warrants reevaluation.
 
 ## Expected takeaway
 
@@ -103,3 +102,9 @@ Better model metrics do not necessarily create a better operational system. Use 
 ## Chapter summary
 
 Chapter 34 turns established Harbor telemetry into a reproducible engineering decision while maintaining evidence boundaries. The next step is not “adopt AI”; it is to test whether the chosen intervention changes a predeclared outcome without violating a guardrail.
+
+## Part transition
+
+Part VII separated model performance from workflow performance. Part VIII now connects the book's measured technical, member, delivery, and operational layers to carefully qualified business relevance and communication.
+
+[Previous chapter](chapter-33-ml-assisted-incident-prioritization.md) | [Contents](../../CONTENTS.md) | [Next chapter](../part-08-business-impact/chapter-35-connecting-technical-outcomes-to-operations.md)

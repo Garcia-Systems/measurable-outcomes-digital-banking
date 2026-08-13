@@ -110,3 +110,9 @@ The tests cover reliability and availability, endpoint errors, alert runs, ident
 ## Expected takeaway
 
 Reliability work is measurable when it reduces failure frequency, user-visible impact, or detection/restoration time under explicit guardrails. This simulation supports a narrower incident-response claim—not an unmeasured organizational causal claim.
+
+## Part transition
+
+Part IV measured service health, detection, and restoration. Part V moves down the stack to the database and backend work that can constrain those reliability outcomes.
+
+[Previous chapter](chapter-18-incidents-measuring-detection-and-recovery.md) | [Contents](../../CONTENTS.md) | [Next chapter](../part-05-databases/chapter-20-sql-latency-measure-before-you-tune.md)

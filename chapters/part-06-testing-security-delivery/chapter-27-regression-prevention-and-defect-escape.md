@@ -42,3 +42,5 @@ Tests, security controls, and deployment processes are outputs. Their value come
 ## Chapter summary
 
 The laboratory measures a quality control, preserves a valid-behavior guardrail, and states its limitations. Continue to the next chapter to move one step toward a measured delivery outcome.
+
+[Previous chapter](chapter-26-integration-tests-at-system-boundaries.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-28-secure-inputs-and-measurable-risk-reduction.md)

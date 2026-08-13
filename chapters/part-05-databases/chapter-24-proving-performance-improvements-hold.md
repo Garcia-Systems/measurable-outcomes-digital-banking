@@ -53,3 +53,9 @@ Performance improvement without behavioral correctness is not a successful outco
 ## Chapter summary
 
 The Part V experiment improves measured work, preserves behavior, exposes tradeoffs, and limits its claim to the laboratory workload.
+
+## Part transition
+
+Part V established performance and correctness evidence. Part VI asks whether testing, defensive controls, review, and delivery processes preserve those properties through change.
+
+[Previous chapter](chapter-23-finding-backend-bottlenecks-across-layers.md) | [Contents](../../CONTENTS.md) | [Next chapter](../part-06-testing-security-delivery/chapter-25-unit-tests-as-fast-outcome-guardrails.md)

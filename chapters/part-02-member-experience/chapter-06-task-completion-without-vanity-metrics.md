@@ -2,7 +2,6 @@
 
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
-[← Previous chapter](chapter-05-mapping-the-digital-member-journey.md) | [Contents](../../CONTENTS.md) | [Next chapter →](chapter-07-diagnosing-funnel-abandonment.md)
 
 ## Learning objectives
 
@@ -63,3 +62,5 @@ A technically correct application is an output. A defensible member-experience o
 ## Chapter summary
 
 Chapter 6 connects observable member-journey behavior to measured outcomes while keeping possible organizational effects explicitly downstream and unproven.
+
+[Previous chapter](chapter-05-mapping-the-digital-member-journey.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-07-diagnosing-funnel-abandonment.md)

@@ -9,6 +9,8 @@ import time
 from dataclasses import dataclass
 from typing import Any, Callable, Iterable
 
+from .measurement import percentile
+
 
 @dataclass(frozen=True)
 class OperationMeasurement:
@@ -83,11 +85,6 @@ def query_plan(db: sqlite3.Connection, account_id: int = 8, limit: int = 20) -> 
 
 def add_transaction_index(db: sqlite3.Connection) -> None:
     db.execute("CREATE INDEX IF NOT EXISTS idx_transactions_account_posted ON transactions(account_id, posted_at DESC, transaction_id DESC)")
-
-
-def percentile(values: list[float], percentile_value: float) -> float:
-    ordered = sorted(values)
-    return ordered[max(0, int((percentile_value / 100) * len(ordered) + .999999) - 1)]
 
 
 def benchmark_query(db: sqlite3.Connection, executions: int = 100) -> dict[str, Any]:

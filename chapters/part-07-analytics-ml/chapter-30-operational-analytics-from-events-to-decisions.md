@@ -89,12 +89,11 @@ Tests cover calculations, deterministic scenarios, baseline/model fairness, down
 
 ## Exercises
 
-1. Compute a four-value confusion matrix by hand and identify the numerator and denominator for precision and recall.
-2. State one decision that could use the measurement and one downstream claim it cannot support.
-3. Compare: rule recall 91%, precision 89%; model recall 95%, precision 61%. Which has better recall? Which has better precision? Which creates more false-positive work? Which is better?
-4. Identify how a changed incident mix or operational cost could reverse a preferred strategy.
+1. Group the same events by vendor and then by endpoint. Which aggregation best localizes the problem, and what information does the broader aggregate hide?
+2. State one observation from the output, one interpretation, and one testable hypothesis.
+3. Which operational decision could use this analysis, and what downstream outcome would you measure next?
 
-**Answer key:** The model has better recall; the rule has better precision; given comparable positive populations, the model tends to create more false-positive investigation work. **There is not enough information yet** to say which is better: measure missed-incident cost, false-investigation cost, capacity, and the downstream workflow.
+**Answer key:** Prefer the narrowest segmentation that exposes the actionable concentration without discarding population context. A valid observation reports a calculated group; an interpretation explains that bounded pattern; a hypothesis predicts a cause or effect for a later test. The analysis can direct investigation, but its value requires measuring the resulting workflow.
 
 ## Expected takeaway
 
@@ -103,3 +102,5 @@ Observation → aggregation → segmentation → trend → baseline → deviatio
 ## Chapter summary
 
 Chapter 30 turns established Harbor telemetry into a reproducible engineering decision while maintaining evidence boundaries. The next step is not “adopt AI”; it is to test whether the chosen intervention changes a predeclared outcome without violating a guardrail.
+
+[Previous chapter](../part-06-testing-security-delivery/chapter-29-deployment-readiness-and-review-quality.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-31-anomaly-detection-without-magic.md)

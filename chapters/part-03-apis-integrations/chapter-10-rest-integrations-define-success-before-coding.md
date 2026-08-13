@@ -85,3 +85,5 @@ HTTP 200 is transport evidence, not proof of business success. Conversely, a tra
 ## Chapter summary
 
 An integration is not successful merely because a call returned. Harbor measures normalized reliability, tail latency, recoverability, request cost, safety, and the workflow result—and restricts its claims to those observations.
+
+[Previous chapter](../part-02-member-experience/chapter-09-mobile-performance-as-a-member-experience-signal.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-11-soap-integrations-measuring-contract-reliability.md)

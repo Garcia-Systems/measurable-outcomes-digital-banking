@@ -54,4 +54,5 @@ Compare values across all three outputs: the selection and explanation differ, b
 2. Identify which arrows in the outcome chain were measured and which remain hypotheses.
 3. State one supported conclusion and one tempting claim the evidence does not establish.
 
+
 [Previous chapter](chapter-37-cost-risk-and-business-value-without-guesswork.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-39-capstone-tell-the-harbor-fcu-outcome-story.md)

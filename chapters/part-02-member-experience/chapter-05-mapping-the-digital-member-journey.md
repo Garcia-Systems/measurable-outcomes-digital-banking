@@ -2,7 +2,6 @@
 
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
-[← Previous chapter](../part-01-foundations/chapter-04-before-after-and-the-limits-of-causality.md) | [Contents](../../CONTENTS.md) | [Next chapter →](chapter-06-task-completion-without-vanity-metrics.md)
 
 ## Learning objectives
 
@@ -65,3 +64,5 @@ A technically correct application is an output. A defensible member-experience o
 ## Chapter summary
 
 Chapter 5 connects observable member-journey behavior to measured outcomes while keeping possible organizational effects explicitly downstream and unproven.
+
+[Previous chapter](../part-01-foundations/chapter-04-before-after-and-the-limits-of-causality.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-06-task-completion-without-vanity-metrics.md)

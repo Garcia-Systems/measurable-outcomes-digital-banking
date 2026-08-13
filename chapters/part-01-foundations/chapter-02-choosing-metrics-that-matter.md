@@ -84,3 +84,6 @@ Choose the closest valid measure for the objective, then use secondary metrics t
 ## Chapter summary
 
 Metric categories form an evidence ladder, not a prestige ladder. The strength and breadth of the conclusion must match what was actually observed.
+
+
+[Previous chapter](chapter-01-establishing-a-baseline.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-03-targets-thresholds-and-success-criteria.md)

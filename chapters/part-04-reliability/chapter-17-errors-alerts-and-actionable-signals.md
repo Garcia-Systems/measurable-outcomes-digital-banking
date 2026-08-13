@@ -92,3 +92,5 @@ python3 -m unittest tests.test_reliability.AlertTest -v
 ## Expected takeaway
 
 Evidence-based diagnosis eliminates inconsistent explanations and ranks hypotheses. It does not turn correlation into certainty. An actionable alert must balance detection speed and false positives.
+
+[Previous chapter](chapter-16-logs-that-shorten-the-search.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-18-incidents-measuring-detection-and-recovery.md)

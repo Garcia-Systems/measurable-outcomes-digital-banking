@@ -84,4 +84,9 @@ Audit each report section back to `src/harbor_fcu/outcomes.py`. Passing criteria
 2. Identify which arrows in the outcome chain were measured and which remain hypotheses.
 3. State one supported conclusion and one tempting claim the evidence does not establish.
 
+
+## Book transition
+
+The capstone completes the loop by communicating what changed, how Harbor measured it, which criteria passed, and which downstream claims remain unestablished. The repository is now ready for repeated learner experiments and evidence review.
+
 [Previous chapter](chapter-38-dashboards-and-engineering-outcome-reports.md) | [Contents](../../CONTENTS.md)

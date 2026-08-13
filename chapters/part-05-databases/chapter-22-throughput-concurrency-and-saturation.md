@@ -53,3 +53,5 @@ Attribute work across the request and improve the limiting access pattern with c
 ## Chapter summary
 
 Backend outcomes require workload-level measures, not isolated micro-optimizations.
+
+[Previous chapter](chapter-21-indexes-and-evidence-based-optimization.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-23-finding-backend-bottlenecks-across-layers.md)

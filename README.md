@@ -13,64 +13,47 @@ This executable textbook teaches developers to connect engineering work to measu
 ## The outcome chain
 
 ```text
-Engineering activity → system change → observable metric → measured outcome
-                     → member / operational effect → potential business impact
+Engineering activity → engineering output → observable metric → measured outcome
+                     → member / operational effect → business relevance
 ```
 
 An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Install and run
+The chapters repeatedly apply one engineering loop: **DEFINE → MEASURE → BUILD → OBSERVE → COMPARE → LEARN → IMPROVE → COMMUNICATE**. Later Parts reuse the definitions and evidence discipline established in Part I rather than redefining them.
 
-Python 3.10+ and the standard library are the only requirements. Run from the repository root:
+## Learner quick-start
+
+### Requirements
+
+Python 3.10+, Bash, Git, and the Python standard library are the only requirements. No package installation, credentials, network service, database server, or AI service is needed. Clone the repository, enter its root, and confirm Python with `python3 --version`.
+
+### Run the first laboratory
 
 ```bash
 python3 scripts/introduce_measurement.py
-python3 scripts/measure_baseline.py
-python3 scripts/choose_metric.py --answer completion_rate
-python3 scripts/evaluate_candidate.py
-python3 scripts/run_experiment.py
-python3 scripts/measure_completion.py
-python3 scripts/analyze_funnel.py
-python3 scripts/analyze_completion_time.py
-python3 scripts/compare_experience.py
-python3 scripts/classify_claims.py
-python3 scripts/measure_api_reliability.py
-python3 scripts/analyze_api_latency.py
-python3 scripts/simulate_retries.py
-python3 scripts/compare_integrations.py
-python3 scripts/run_integration_experiment.py
-python3 scripts/measure_reliability.py
-python3 scripts/explore_observability.py
-python3 scripts/investigate_incident.py
-python3 scripts/measure_incident_response.py
-python3 scripts/run_reliability_experiment.py
-python3 scripts/measure_query_performance.py
-python3 scripts/compare_database_index.py
-python3 scripts/analyze_backend_workload.py
-python3 scripts/simulate_backend_concurrency.py
-python3 scripts/run_backend_experiment.py
-python3 scripts/measure_testing.py
-python3 scripts/analyze_defect_escape.py
-python3 scripts/run_security_validation.py
-python3 scripts/check_release_readiness.py
-python3 scripts/check_release_readiness.py --candidate invalid
-python3 scripts/run_delivery_experiment.py
-python3 scripts/analyze_operations.py
-python3 scripts/detect_anomalies.py
-python3 scripts/forecast_workload.py
-python3 scripts/prioritize_incidents.py
-python3 scripts/run_intelligence_experiment.py
-python3 scripts/operational_scorecard.py
-python3 scripts/measure_member_outcomes.py
-python3 scripts/estimate_business_value.py
-python3 scripts/report_outcomes.py --audience engineer
-python3 scripts/report_outcomes.py --audience operations
-python3 scripts/report_outcomes.py --audience executive
-python3 scripts/run_capstone.py
-python3 -m unittest discover -s tests -v
 ```
 
-The labs reuse committed observations in `data/synthetic/part1`. Results are deterministic. The deliberately fast Chapter 3 candidate reports overall `FAIL` because it violates reliability guardrails; that is a successful experiment, not a command failure.
+Read [Chapter 0](chapters/part-01-foundations/chapter-00-from-code-to-outcomes.md), predict the output, run the command, and answer the chapter exercises before checking its answer key. Then follow each chapter's **Next chapter** link through [the complete contents](CONTENTS.md). The sequence deliberately moves from definitions and baselines, through member and system layers, to evidence-bounded business communication.
+
+### Validate your environment and progress
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/validate_structure.py
+./scripts/validate-labs.sh
+```
+
+The test command checks calculations, scenarios, commands, curriculum structure, and Markdown links. The structure command gives a concise book-integrity result. The laboratory runner executes exactly one documented command for each Chapter 0–39, in order, and stops visibly on failure. Laboratories reuse committed or generated synthetic observations and are deterministic except for explicitly labeled local wall-clock observations in Part V; Part V decisions use portable query plans, work counts, modeled values, and result equivalence instead.
+
+### Run the capstone
+
+After completing Parts I–VIII, run:
+
+```bash
+python3 scripts/run_capstone.py
+```
+
+Audit its values back to their deterministic fixture and separate supported conclusions, hypotheses, and not-established claims. The [glossary](docs/GLOSSARY.md), [metrics reference](docs/METRICS_REFERENCE.md), and [Harbor architecture](docs/HARBOR_ARCHITECTURE.md) are quick references while you work.
 
 ## What Part I provides
 
@@ -108,7 +91,9 @@ Run `python3 scripts/run_capstone.py`. The criteria are declared in code before 
 - `src/harbor_fcu/` — reusable measurement/simulation code.
 - `scripts/` — learner-facing commands.
 - `tests/` — calculation, scenario, command, and structural checks.
-- `docs/` — authoring and data conventions.
+- `docs/` — terminology, metric, architecture, authoring, and data references.
+- `scripts/validate-labs.sh` — all 40 laboratories in curriculum order.
+- `scripts/validate_structure.py` — Parts, chapters, contents, and local-link integrity.
 
 ## Safety and scope
 

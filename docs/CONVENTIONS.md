@@ -3,7 +3,8 @@
 ## Narrative conventions
 
 - Always call the institution **Harbor Federal Credit Union (Harbor FCU)** and identify it as fictional when context could be ambiguous.
-- Use the outcome chain: output → metric → outcome → impact.
+- Use the outcome chain: engineering activity → engineering output → observable metric → measured outcome → member/operational effect → business relevance.
+- Use the loop: DEFINE → MEASURE → BUILD → OBSERVE → COMPARE → LEARN → IMPROVE → COMMUNICATE.
 - State the baseline, measurement window, population, target, and limitations.
 - Label unsupported downstream benefits as hypotheses or potential impacts. Correlation alone does not establish causation.
 - Extend the shared simulation rather than creating a standalone chapter application.
@@ -23,3 +24,5 @@ Chapter files live under `chapters/part-NN-name/chapter-NN-slug.md`, use chapter
 ## Metric convention
 
 Define numerator and denominator, units, filters, and edge-case behavior. Percentiles use the nearest-rank method unless a chapter explicitly teaches another convention. Preserve raw observations so results are reproducible.
+
+Use **percentage points** for the absolute difference between rates and **relative percentage change** for the difference divided by the baseline. Use the repository-wide definitions in [the glossary](GLOSSARY.md) and state any intentional local variation.

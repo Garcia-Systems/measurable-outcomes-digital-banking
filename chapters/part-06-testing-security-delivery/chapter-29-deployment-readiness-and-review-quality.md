@@ -44,3 +44,9 @@ Tests, security controls, and deployment processes are outputs. Their value come
 ## Chapter summary
 
 The laboratory measures a quality control, preserves a valid-behavior guardrail, and states its limitations. Continue to the next chapter to move one step toward a measured delivery outcome.
+
+## Part transition
+
+Part VI measured delivery controls and escaped defects. Part VII reuses the resulting telemetry to evaluate analytics, automation, and scoring against simple baselines and operational outcomes.
+
+[Previous chapter](chapter-28-secure-inputs-and-measurable-risk-reduction.md) | [Contents](../../CONTENTS.md) | [Next chapter](../part-07-analytics-ml/chapter-30-operational-analytics-from-events-to-decisions.md)

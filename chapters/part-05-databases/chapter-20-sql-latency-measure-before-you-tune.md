@@ -55,3 +55,5 @@ A stable, representative benchmark and inspectable work evidence come before opt
 ## Chapter summary
 
 Measure repeatedly, report distributions, inspect the plan, and bound the conclusion.
+
+[Previous chapter](../part-04-reliability/chapter-19-availability-error-budgets-and-learning-reviews.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-21-indexes-and-evidence-based-optimization.md)

@@ -28,19 +28,19 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 
 ## Part 4 — Reliability and Incident Response — **implemented**
 
-16. [Chapter 15: Application Health Beyond a Green Check](chapters/part-04-reliability/chapter-15-application-health-beyond-a-green-check.md)
-17. [Chapter 16: Logs That Shorten the Search](chapters/part-04-reliability/chapter-16-logs-that-shorten-the-search.md)
-18. [Chapter 17: Errors, Alerts, and Actionable Signals](chapters/part-04-reliability/chapter-17-errors-alerts-and-actionable-signals.md)
-19. [Chapter 18: Incidents: Measuring Detection and Recovery](chapters/part-04-reliability/chapter-18-incidents-measuring-detection-and-recovery.md)
-20. [Chapter 19: Availability, Error Budgets, and Learning Reviews](chapters/part-04-reliability/chapter-19-availability-error-budgets-and-learning-reviews.md)
+16. [Chapter 15: Measuring Application Reliability](chapters/part-04-reliability/chapter-15-application-health-beyond-a-green-check.md)
+17. [Chapter 16: Logs, Metrics, and Observability](chapters/part-04-reliability/chapter-16-logs-that-shorten-the-search.md)
+18. [Chapter 17: Detecting and Diagnosing an Incident](chapters/part-04-reliability/chapter-17-errors-alerts-and-actionable-signals.md)
+19. [Chapter 18: Measuring Detection and Recovery](chapters/part-04-reliability/chapter-18-incidents-measuring-detection-and-recovery.md)
+20. [Chapter 19: Measuring an Incident-Response Improvement](chapters/part-04-reliability/chapter-19-availability-error-budgets-and-learning-reviews.md)
 
 ## Part 5 — Databases and Backend Performance — **implemented**
 
-21. [Chapter 20: SQL Latency: Measure Before You Tune](chapters/part-05-databases/chapter-20-sql-latency-measure-before-you-tune.md)
+21. [Chapter 20: Measuring Query Performance](chapters/part-05-databases/chapter-20-sql-latency-measure-before-you-tune.md)
 22. [Chapter 21: Indexes and Evidence-Based Optimization](chapters/part-05-databases/chapter-21-indexes-and-evidence-based-optimization.md)
-23. [Chapter 22: Throughput, Concurrency, and Saturation](chapters/part-05-databases/chapter-22-throughput-concurrency-and-saturation.md)
-24. [Chapter 23: Finding Backend Bottlenecks Across Layers](chapters/part-05-databases/chapter-23-finding-backend-bottlenecks-across-layers.md)
-25. [Chapter 24: Proving Performance Improvements Hold](chapters/part-05-databases/chapter-24-proving-performance-improvements-hold.md)
+23. [Chapter 22: Backend Throughput and Bottlenecks](chapters/part-05-databases/chapter-22-throughput-concurrency-and-saturation.md)
+24. [Chapter 23: Correctness, Concurrency, and Performance](chapters/part-05-databases/chapter-23-finding-backend-bottlenecks-across-layers.md)
+25. [Chapter 24: Measuring a Backend Optimization](chapters/part-05-databases/chapter-24-proving-performance-improvements-hold.md)
 
 ## Part 6 — Testing, Security, and Delivery — **implemented**
 
@@ -60,8 +60,8 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 
 ## Part 8 — Business Impact and Communicating Results — **implemented**
 
-36. [Chapter 35: Connecting Technical Outcomes to Operations](chapters/part-08-business-impact/chapter-35-connecting-technical-outcomes-to-operations.md)
-37. [Chapter 36: Member Experience, Adoption, and Causal Restraint](chapters/part-08-business-impact/chapter-36-member-experience-adoption-and-causal-restraint.md)
-38. [Chapter 37: Cost, Risk, and Business Value Without Guesswork](chapters/part-08-business-impact/chapter-37-cost-risk-and-business-value-without-guesswork.md)
-39. [Chapter 38: Dashboards and Engineering Outcome Reports](chapters/part-08-business-impact/chapter-38-dashboards-and-engineering-outcome-reports.md)
-40. [Chapter 39: Capstone: Tell the Harbor FCU Outcome Story](chapters/part-08-business-impact/chapter-39-capstone-tell-the-harbor-fcu-outcome-story.md)
+36. [Chapter 35: Connecting Technical Metrics to Operational Outcomes](chapters/part-08-business-impact/chapter-35-connecting-technical-outcomes-to-operations.md)
+37. [Chapter 36: Measuring Member and Self-Service Outcomes](chapters/part-08-business-impact/chapter-36-member-experience-adoption-and-causal-restraint.md)
+38. [Chapter 37: Cost, Efficiency, and Business Value](chapters/part-08-business-impact/chapter-37-cost-risk-and-business-value-without-guesswork.md)
+39. [Chapter 38: Dashboards and Outcome Communication](chapters/part-08-business-impact/chapter-38-dashboards-and-engineering-outcome-reports.md)
+40. [Chapter 39: Capstone: The Measurable Outcomes Engineering Review](chapters/part-08-business-impact/chapter-39-capstone-tell-the-harbor-fcu-outcome-story.md)

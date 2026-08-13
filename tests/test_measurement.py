@@ -34,6 +34,12 @@ class MeasurementTest(unittest.TestCase):
         self.assertAlmostEqual(percentage_improvement(1250,760,True),39.2)
         with self.assertRaises(ValueError): compare('metric',0,1)
 
+    def test_rate_change_distinguishes_points_from_relative_percent(self):
+        result = compare('completion_rate', 80, 85, 'percent')
+        self.assertEqual(result.absolute_change, 5)
+        self.assertEqual(result.unit, 'percent')
+        self.assertAlmostEqual(result.relative_change_pct, 6.25)
+
     def test_threshold_boundaries_and_invalid_operator(self):
         self.assertTrue(evaluate(99,Criterion('success','>=',99)).passed)
         self.assertFalse(evaluate(1,Criterion('errors','<',1)).passed)

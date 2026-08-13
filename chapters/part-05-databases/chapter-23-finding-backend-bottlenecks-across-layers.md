@@ -53,3 +53,5 @@ Performance criteria are incomplete without transaction, consistency, and duplic
 ## Chapter summary
 
 Correctness defines success; concurrency and idempotency protect it under competing and repeated work.
+
+[Previous chapter](chapter-22-throughput-concurrency-and-saturation.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-24-proving-performance-improvements-hold.md)
