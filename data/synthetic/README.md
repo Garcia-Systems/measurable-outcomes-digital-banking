@@ -10,3 +10,8 @@ must use deterministic seeds and document their schemas here.
 Part III observations are generated in memory from explicit scenario tables in
 `src/harbor_fcu/integrations.py`. Fixed operation IDs and UTC timestamps make the
 records reproducible and inspectable; no vendor data or network response is used.
+
+Part IV operational requests, structured logs, alert windows, and incident records
+are generated from explicit fixtures in `src/harbor_fcu/reliability.py`. They use
+UTC timestamps and opaque request/operation identifiers. They contain no names,
+account numbers, credentials, balances, request bodies, or production telemetry.

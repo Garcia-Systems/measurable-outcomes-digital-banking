@@ -8,7 +8,7 @@ This executable textbook teaches developers to connect engineering work to measu
 
 ## Curriculum status
 
-**Parts I–III, Chapters 0–14, are implemented** as substantive lessons and coherent measurement labs. **Chapters 15–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
+**Parts I–IV, Chapters 0–19, are implemented** as substantive lessons and coherent measurement labs. **Chapters 20–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
 
 ## The outcome chain
 
@@ -19,7 +19,7 @@ Engineering activity → system change → observable metric → measured outcom
 
 An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Parts I–III quick start
+## Parts I–IV quick start
 
 Python 3.10+ and the standard library are the only requirements. Run from the repository root:
 
@@ -39,6 +39,11 @@ python3 scripts/analyze_api_latency.py
 python3 scripts/simulate_retries.py
 python3 scripts/compare_integrations.py
 python3 scripts/run_integration_experiment.py
+python3 scripts/measure_reliability.py
+python3 scripts/explore_observability.py
+python3 scripts/investigate_incident.py
+python3 scripts/measure_incident_response.py
+python3 scripts/run_reliability_experiment.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -58,6 +63,8 @@ Part II extends the same utilities with deterministic digital-application events
 
 Part III adds network-free fictional integrations: ClearVerify REST member verification, HeritageCore SOAP core lookup, and a minimal NorthstarPay idempotency example. Harbor-owned adapters normalize protocol outcomes into shared telemetry; laboratories measure reliability, latency tails, retry recovery and cost, adapter comparability, and declared before/after criteria.
 
+Part IV adds deterministic application requests, component timing, structured privacy-conscious logs, correlated request/operation identifiers, health evidence, alert windows, and incident records. Its five laboratories measure useful-work availability, endpoint reliability, alert sensitivity and false positives, chronological incident diagnosis, MTTD/MTTR, and a predeclared before/after incident-response experiment. In this repository MTTD is incident start to detection, while MTTR is incident start to useful-service restoration.
+
 ## Repository map
 
 - `chapters/` — eight parts and Chapters 0–39.
@@ -70,4 +77,4 @@ Part III adds network-free fictional integrations: ClearVerify REST member verif
 
 ## Safety and scope
 
-Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–III demonstrate evidence-bounded technical, member-experience, and integration measurement. Production integrations, claims about real institutions, and Chapters 15–39 are out of scope.
+Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–IV demonstrate evidence-bounded technical, member-experience, integration, and incident-response measurement. Production integrations, claims about real institutions, and Chapters 20–39 are out of scope.
