@@ -45,3 +45,11 @@ and verification tables. Run the five Part V commands in the root README. The la
 combine observed timing with query plans, exact query counts, deterministic modeled
 service time, normalized result hashes, and correctness guardrails. They are teaching
 benchmarks, not a production ledger, profiler, capacity model, or performance promise.
+
+## Part VII: analytics, automation, and machine learning
+
+Part VII reuses earlier operational telemetry and known incident ground truth. Five
+standard-library laboratories group requests, detect anomalies, forecast workload,
+compare a rule with explainable scoring, and measure the downstream investigation
+workflow. See `part-07-analytics-automation-ml.md`; no real data or external service
+is involved.

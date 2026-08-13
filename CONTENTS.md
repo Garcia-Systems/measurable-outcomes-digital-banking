@@ -50,15 +50,15 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 29. [Chapter 28: Code Review, CI, and Deployment Readiness](chapters/part-06-testing-security-delivery/chapter-28-secure-inputs-and-measurable-risk-reduction.md)
 30. [Chapter 29: Measuring a Delivery Improvement](chapters/part-06-testing-security-delivery/chapter-29-deployment-readiness-and-review-quality.md)
 
-## Part 7 — Analytics, Automation, and Machine Learning
+## Part 7 — Analytics, Automation, and Machine Learning — **implemented**
 
-31. [Chapter 30: Operational Analytics: From Events to Decisions](chapters/part-07-analytics-ml/chapter-30-operational-analytics-from-events-to-decisions.md)
-32. [Chapter 31: Anomaly Detection Without Magic](chapters/part-07-analytics-ml/chapter-31-anomaly-detection-without-magic.md)
-33. [Chapter 32: Prioritizing Incidents with Explainable Signals](chapters/part-07-analytics-ml/chapter-32-prioritizing-incidents-with-explainable-signals.md)
-34. [Chapter 33: Trend Detection and Capacity Forecasting](chapters/part-07-analytics-ml/chapter-33-trend-detection-and-capacity-forecasting.md)
-35. [Chapter 34: Intelligent Alerting with Human Guardrails](chapters/part-07-analytics-ml/chapter-34-intelligent-alerting-with-human-guardrails.md)
+31. [Chapter 30: From Operational Data to Engineering Insight](chapters/part-07-analytics-ml/chapter-30-operational-analytics-from-events-to-decisions.md)
+32. [Chapter 31: Detecting Anomalies](chapters/part-07-analytics-ml/chapter-31-anomaly-detection-without-magic.md)
+33. [Chapter 32: Forecasting and Capacity Signals](chapters/part-07-analytics-ml/chapter-32-forecasting-and-capacity-signals.md)
+34. [Chapter 33: ML-Assisted Incident Prioritization](chapters/part-07-analytics-ml/chapter-33-ml-assisted-incident-prioritization.md)
+35. [Chapter 34: Does the Intelligence Actually Improve the Outcome?](chapters/part-07-analytics-ml/chapter-34-intelligent-alerting-with-human-guardrails.md)
 
-## Part 8 — Business Impact and Communicating Results
+## Part 8 — Business Impact and Communicating Results — **planned**
 
 36. [Chapter 35: Connecting Technical Outcomes to Operations](chapters/part-08-business-impact/chapter-35-connecting-technical-outcomes-to-operations.md)
 37. [Chapter 36: Member Experience, Adoption, and Causal Restraint](chapters/part-08-business-impact/chapter-36-member-experience-adoption-and-causal-restraint.md)
