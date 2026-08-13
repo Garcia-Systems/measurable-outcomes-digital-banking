@@ -26,3 +26,13 @@ HeritageCore SOAP, and NorthstarPay transfer behavior. Adapters never open a
 socket: scenario tables produce normalized telemetry for reliability, tail
 latency, bounded retries, retry exhaustion, and idempotency measurement. Run the
 five Part III commands listed in the repository README from the repository root.
+
+## Part IV: reliability and incident response
+
+Part IV extends the same fictional architecture with in-memory request observations,
+component metrics, privacy-conscious structured logs, correlated request/operation
+IDs, alert windows, and incident milestone records. No monitoring service or network
+is used. Run `measure_reliability.py`, `explore_observability.py`,
+`investigate_incident.py`, `measure_incident_response.py`, and
+`run_reliability_experiment.py` from `scripts/`. MTTD means start-to-detection and
+MTTR means start-to-useful-service-restoration throughout these labs.

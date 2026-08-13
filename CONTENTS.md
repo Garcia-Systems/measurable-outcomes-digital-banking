@@ -26,7 +26,7 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 14. [Chapter 13: REST, SOAP, and Integration Adapters](chapters/part-03-apis-integrations/chapter-13-dependency-failures-and-graceful-degradation.md)
 15. [Chapter 14: Measuring an Integration Improvement](chapters/part-03-apis-integrations/chapter-14-holding-vendors-accountable-with-evidence.md)
 
-## Part 4 — Reliability and Incident Response
+## Part 4 — Reliability and Incident Response — **implemented**
 
 16. [Chapter 15: Application Health Beyond a Green Check](chapters/part-04-reliability/chapter-15-application-health-beyond-a-green-check.md)
 17. [Chapter 16: Logs That Shorten the Search](chapters/part-04-reliability/chapter-16-logs-that-shorten-the-search.md)
