@@ -53,3 +53,5 @@ An index is a testable hypothesis about a specific workload, with measurable cos
 ## Chapter summary
 
 Inspect, hypothesize, change one access path, compare equivalent results, and report bounded evidence.
+
+[Previous chapter](chapter-20-sql-latency-measure-before-you-tune.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-22-throughput-concurrency-and-saturation.md)

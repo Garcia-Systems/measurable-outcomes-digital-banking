@@ -25,6 +25,23 @@ class CurriculumStructureTest(unittest.TestCase):
             for heading in headings:
                 self.assertIn(heading, text, f"{path} lacks {heading}")
 
+    def test_every_chapter_has_complete_navigation(self):
+        files = sorted(
+            (ROOT / "chapters").glob("part-*/chapter-*.md"),
+            key=lambda path: int(path.name.split("-")[1]),
+        )
+        for index, path in enumerate(files):
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("[Contents](../../CONTENTS.md)", text)
+            self.assertEqual("[Previous chapter]" in text, index > 0)
+            self.assertEqual("[Next chapter]" in text, index < 39)
+
+    def test_part_transitions_connect_the_learning_progression(self):
+        files = {int(path.name.split("-")[1]): path for path in (ROOT / "chapters").glob("part-*/chapter-*.md")}
+        for number in (4, 9, 14, 19, 24, 29, 34):
+            self.assertIn("## Part transition", files[number].read_text(encoding="utf-8"))
+        self.assertIn("## Book transition", files[39].read_text(encoding="utf-8"))
+
 
 if __name__ == "__main__":
     unittest.main()

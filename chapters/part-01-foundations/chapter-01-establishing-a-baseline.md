@@ -87,3 +87,6 @@ Targets and outcomes are interpretable only relative to a documented, reproducib
 ## Chapter summary
 
 A baseline needs a window, population, definitions, preserved observations, and comparable conditions—not merely a number copied into a plan.
+
+
+[Previous chapter](chapter-00-from-code-to-outcomes.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-02-choosing-metrics-that-matter.md)

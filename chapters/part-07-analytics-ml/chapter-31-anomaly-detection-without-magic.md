@@ -89,12 +89,11 @@ Tests cover calculations, deterministic scenarios, baseline/model fairness, down
 
 ## Exercises
 
-1. Compute a four-value confusion matrix by hand and identify the numerator and denominator for precision and recall.
-2. State one decision that could use the measurement and one downstream claim it cannot support.
-3. Compare: rule recall 91%, precision 89%; model recall 95%, precision 61%. Which has better recall? Which has better precision? Which creates more false-positive work? Which is better?
-4. Identify how a changed incident mix or operational cost could reverse a preferred strategy.
+1. From a confusion matrix, identify the numerators and denominators for precision and recall.
+2. Increase the anomaly threshold. Predict the likely precision/recall tradeoff before running the laboratory.
+3. What additional evidence would show whether detected anomalies improved incident response?
 
-**Answer key:** The model has better recall; the rule has better precision; given comparable positive populations, the model tends to create more false-positive investigation work. **There is not enough information yet** to say which is better: measure missed-incident cost, false-investigation cost, capacity, and the downstream workflow.
+**Answer key:** Precision is `TP / (TP + FP)` and recall is `TP / (TP + FN)`. A higher threshold commonly reduces alerts and false positives but can increase false negatives; verify rather than assume. Compare investigation workload and detection/restoration outcomes on the same labeled population.
 
 ## Expected takeaway
 
@@ -103,3 +102,5 @@ High sensitivity detects more incidents but can create false investigations; spe
 ## Chapter summary
 
 Chapter 31 turns established Harbor telemetry into a reproducible engineering decision while maintaining evidence boundaries. The next step is not “adopt AI”; it is to test whether the chosen intervention changes a predeclared outcome without violating a guardrail.
+
+[Previous chapter](chapter-30-operational-analytics-from-events-to-decisions.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-32-forecasting-and-capacity-signals.md)

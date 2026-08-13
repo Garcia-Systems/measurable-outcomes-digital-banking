@@ -85,3 +85,5 @@ Bounded retries may improve eventual success while increasing latency and reques
 ## Chapter summary
 
 An integration is not successful merely because a call returned. Harbor measures normalized reliability, tail latency, recoverability, request cost, safety, and the workflow result—and restricts its claims to those observations.
+
+[Previous chapter](chapter-11-soap-integrations-measuring-contract-reliability.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-13-dependency-failures-and-graceful-degradation.md)

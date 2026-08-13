@@ -81,3 +81,6 @@ Improving one metric while violating a guardrail is not success under a complete
 ## Chapter summary
 
 Predeclared targets turn measurements into decisions. Guardrails ensure the intervention improves the system rather than shifting damage to another dimension.
+
+
+[Previous chapter](chapter-02-choosing-metrics-that-matter.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-04-before-after-and-the-limits-of-causality.md)

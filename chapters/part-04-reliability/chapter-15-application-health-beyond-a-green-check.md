@@ -80,3 +80,5 @@ Tests establish numerator/denominator behavior, expected endpoint rates, and the
 ## Expected takeaway
 
 A running process is not necessarily an available service. Measure successful useful work, preserve its denominator and window, and slice by operation before making a reliability claim.
+
+[Previous chapter](../part-03-apis-integrations/chapter-14-holding-vendors-accountable-with-evidence.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-16-logs-that-shorten-the-search.md)

@@ -1,0 +1,48 @@
+# Measurable-outcomes glossary
+
+This glossary is the repository-wide vocabulary contract. Examples use only the fictional, synthetic Harbor Federal Credit Union (Harbor FCU) laboratory.
+
+- **Engineering activity** — Work performed, such as profiling or implementing a retry.
+- **Output** — The artifact or system change produced by an activity. Shipping an output does not establish an outcome.
+- **Metric** — A defined quantitative observation, including its unit, population, window, filters, and calculation.
+- **Outcome** — A measured change from a documented baseline under stated conditions.
+- **Impact** — A downstream member, operational, or business effect supported by direct evidence; an unmeasured effect is a hypothesis, not an impact claim.
+- **Baseline** — The documented starting measurement used for comparison, including its population, window, and conditions ([Chapter 1](../chapters/part-01-foundations/chapter-01-establishing-a-baseline.md)).
+- **Target** — A desired metric value. It is not evidence that the value was achieved.
+- **Threshold** — A boundary used to trigger a decision or classification.
+- **Guardrail** — A criterion that must not regress while a primary metric improves.
+- **Success criterion** — A predeclared metric, comparison operator, and threshold used to evaluate an intervention ([Chapter 3](../chapters/part-01-foundations/chapter-03-targets-thresholds-and-success-criteria.md)).
+- **SLI (service-level indicator)** — A measured signal of service behavior, such as the proportion of eligible requests that succeed.
+- **SLO (service-level objective)** — A target for an SLI over a stated window; it is not the observed value.
+- **Success rate** — Successful eligible observations divided by all eligible observations, multiplied by 100.
+- **Error rate** — Failed eligible observations divided by all eligible observations, multiplied by 100. In a two-state population it equals 100% minus success rate.
+- **Availability** — The proportion of defined service opportunities in which useful service was available. A green process check alone is not availability ([Chapter 15](../chapters/part-04-reliability/chapter-15-application-health-beyond-a-green-check.md)).
+- **Latency** — Elapsed time for a defined operation, reported with a unit and boundaries.
+- **Median / p50** — The middle observation under the declared percentile method; it describes typical behavior, not the tail.
+- **p95** — The nearest-rank 95th percentile in this book: at least 95% of observations are at or below it. It is not a maximum.
+- **Completion rate** — Eligible started tasks reaching the declared completion event divided by eligible started tasks.
+- **Abandonment rate** — Eligible started tasks not reaching that event divided by eligible started tasks. Under the book's binary definition it complements completion rate.
+- **Transient failure** — A failure that may succeed later without changing the request's meaning.
+- **Permanent failure** — A failure for which repeating the unchanged request is not expected to help.
+- **Retry** — A bounded additional attempt after an eligible transient failure; retry cost includes requests and delay.
+- **Idempotency** — The property that repeating the same logical operation with the same key does not apply its state change more than once.
+- **Incident** — A bounded service disruption or degradation with explicitly defined start, detection, and restoration milestones.
+- **MTTD** — Mean time to detect: in this book, incident start to detection, averaged over incidents.
+- **MTTR** — Mean time to restore: in this book, incident start to useful-service restoration, averaged over incidents. Always state the endpoint because other organizations may define the acronym differently.
+- **Defect** — A defined deviation from expected behavior.
+- **Regression** — Previously acceptable behavior that fails after a change.
+- **Escaped defect** — A known defect not detected by the evaluated pre-release controls and therefore reaching the laboratory's simulated downstream stage.
+- **Defect detection rate** — Known defects detected before the boundary divided by known defects introduced.
+- **Defect escape rate** — Known defects crossing the boundary undetected divided by known defects introduced.
+- **Precision** — True positives divided by all predicted positives; it answers how often a positive prediction was correct.
+- **Recall** — True positives divided by all actual positives; it answers how many actual positives were found.
+- **Observation** — A direct report of measured data.
+- **Interpretation** — A bounded explanation of what an observation means within its definitions and conditions.
+- **Hypothesis** — A testable possible explanation or downstream effect not yet established by the evidence.
+- **Causal claim** — A claim that an intervention produced an effect; it requires a design that addresses credible alternative explanations ([Chapter 4](../chapters/part-01-foundations/chapter-04-before-after-and-the-limits-of-causality.md)).
+- **Measured** — Directly observed with documented provenance.
+- **Derived** — Calculated only from measured values.
+- **Assumed** — Supplied rather than observed; sensitivity to it should be visible.
+- **Estimated** — Calculated using one or more assumptions. An estimated value equivalent is not realized savings ([Chapter 37](../chapters/part-08-business-impact/chapter-37-cost-risk-and-business-value-without-guesswork.md)).
+- **Absolute rate change** — The after rate minus the baseline rate, expressed in percentage points: 80% to 85% is **+5 percentage points**.
+- **Relative percentage change** — `(after - baseline) / baseline × 100`: 80% to 85% is **+6.25% relative**.

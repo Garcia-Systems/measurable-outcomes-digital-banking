@@ -50,4 +50,5 @@ Remove one assumption and observe the dependent estimate disappear. The report l
 2. Identify which arrows in the outcome chain were measured and which remain hypotheses.
 3. State one supported conclusion and one tempting claim the evidence does not establish.
 
+
 [Previous chapter](chapter-36-member-experience-adoption-and-causal-restraint.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-38-dashboards-and-engineering-outcome-reports.md)

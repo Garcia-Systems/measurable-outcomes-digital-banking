@@ -69,7 +69,7 @@ def load_observations(path: Path) -> list[Observation]:
     ]
 
 
-def percentile(values: Iterable[int], percentile_value: float) -> int:
+def percentile(values: Iterable[float], percentile_value: float) -> float:
     """Return a nearest-rank percentile (0 < percentile <= 100)."""
     ordered = sorted(values)
     if not ordered:

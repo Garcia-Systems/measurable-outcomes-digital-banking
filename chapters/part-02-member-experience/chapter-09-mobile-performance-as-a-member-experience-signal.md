@@ -2,7 +2,6 @@
 
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
-[← Previous chapter](chapter-08-navigation-experiments-and-responsible-conversion-claims.md) | [Contents](../../CONTENTS.md) | [Next chapter →](../part-03-apis-integrations/chapter-10-rest-integrations-define-success-before-coding.md)
 
 ## Learning objectives
 
@@ -61,3 +60,9 @@ A technically correct application is an output. A defensible member-experience o
 ## Chapter summary
 
 Chapter 9 connects observable member-journey behavior to measured outcomes while keeping possible organizational effects explicitly downstream and unproven.
+
+## Part transition
+
+Part II measured the digital journey. Part III follows the calls beneath that journey to determine how API contracts, latency, retries, and vendor behavior shape—but do not alone prove—the member outcome.
+
+[Previous chapter](chapter-08-navigation-experiments-and-responsible-conversion-claims.md) | [Contents](../../CONTENTS.md) | [Next chapter](../part-03-apis-integrations/chapter-10-rest-integrations-define-success-before-coding.md)

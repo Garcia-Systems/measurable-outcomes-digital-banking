@@ -90,3 +90,5 @@ The tests verify identifier propagation, component coverage, filters, and chrono
 ## Expected takeaway
 
 Metrics locate unusual behavior in aggregate. Structured, correlated, privacy-conscious events narrow an investigation. Neither alone establishes root cause.
+
+[Previous chapter](chapter-15-application-health-beyond-a-green-check.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-17-errors-alerts-and-actionable-signals.md)

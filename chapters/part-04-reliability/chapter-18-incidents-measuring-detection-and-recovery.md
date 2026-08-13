@@ -76,3 +76,5 @@ python3 -m unittest tests.test_reliability.IncidentResponseTest.test_durations_a
 ## Expected takeaway
 
 Incident response becomes improvable when milestones and interval definitions are explicit. Averages summarize a population; they never replace review of the underlying incidents.
+
+[Previous chapter](chapter-17-errors-alerts-and-actionable-signals.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-19-availability-error-budgets-and-learning-reviews.md)

@@ -89,12 +89,11 @@ Tests cover calculations, deterministic scenarios, baseline/model fairness, down
 
 ## Exercises
 
-1. Compute a four-value confusion matrix by hand and identify the numerator and denominator for precision and recall.
-2. State one decision that could use the measurement and one downstream claim it cannot support.
-3. Compare: rule recall 91%, precision 89%; model recall 95%, precision 61%. Which has better recall? Which has better precision? Which creates more false-positive work? Which is better?
-4. Identify how a changed incident mix or operational cost could reverse a preferred strategy.
+1. Compare the rule baseline and scoring approach on identical ground truth. Which has better precision, recall, and false-positive workload?
+2. Why is the highest model metric not automatically the best operational choice?
+3. Name a guardrail for ML-assisted prioritization and explain how a human override should be recorded.
 
-**Answer key:** The model has better recall; the rule has better precision; given comparable positive populations, the model tends to create more false-positive investigation work. **There is not enough information yet** to say which is better: measure missed-incident cost, false-investigation cost, capacity, and the downstream workflow.
+**Answer key:** Calculate each metric from the displayed confusion matrices rather than choosing by label. The choice also depends on missed-incident cost, investigation capacity, severity, and downstream time. A suitable guardrail is high-severity recall; record override reason and final disposition for later evaluation without treating the operator as model ground truth by default.
 
 ## Expected takeaway
 
@@ -103,3 +102,5 @@ Prediction ranks work; the engineering action and downstream response create any
 ## Chapter summary
 
 Chapter 33 turns established Harbor telemetry into a reproducible engineering decision while maintaining evidence boundaries. The next step is not “adopt AI”; it is to test whether the chosen intervention changes a predeclared outcome without violating a guardrail.
+
+[Previous chapter](chapter-32-forecasting-and-capacity-signals.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-34-intelligent-alerting-with-human-guardrails.md)

@@ -85,3 +85,5 @@ Averages hide the few slow calls that can dominate an experience; dependency tim
 ## Chapter summary
 
 An integration is not successful merely because a call returned. Harbor measures normalized reliability, tail latency, recoverability, request cost, safety, and the workflow result—and restricts its claims to those observations.
+
+[Previous chapter](chapter-10-rest-integrations-define-success-before-coding.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-12-timeouts-retries-and-the-cost-of-resilience.md)

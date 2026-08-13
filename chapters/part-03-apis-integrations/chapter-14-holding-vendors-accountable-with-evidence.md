@@ -85,3 +85,9 @@ Evaluate criteria defined before the intervention and separate measured conclusi
 ## Chapter summary
 
 An integration is not successful merely because a call returned. Harbor measures normalized reliability, tail latency, recoverability, request cost, safety, and the workflow result—and restricts its claims to those observations.
+
+## Part transition
+
+Part III isolated dependency behavior. Part IV widens the boundary to application reliability and incident response across the complete Harbor laboratory environment.
+
+[Previous chapter](chapter-13-dependency-failures-and-graceful-degradation.md) | [Contents](../../CONTENTS.md) | [Next chapter](../part-04-reliability/chapter-15-application-health-beyond-a-green-check.md)

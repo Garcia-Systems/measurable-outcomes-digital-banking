@@ -89,12 +89,11 @@ Tests cover calculations, deterministic scenarios, baseline/model fairness, down
 
 ## Exercises
 
-1. Compute a four-value confusion matrix by hand and identify the numerator and denominator for precision and recall.
-2. State one decision that could use the measurement and one downstream claim it cannot support.
-3. Compare: rule recall 91%, precision 89%; model recall 95%, precision 61%. Which has better recall? Which has better precision? Which creates more false-positive work? Which is better?
-4. Identify how a changed incident mix or operational cost could reverse a preferred strategy.
+1. Compare the naive and moving-average forecast errors. Does the smaller laboratory error prove the method will generalize?
+2. Describe a capacity decision for which underforecasting and overforecasting have different costs.
+3. Identify one changing condition that could invalidate the historical baseline.
 
-**Answer key:** The model has better recall; the rule has better precision; given comparable positive populations, the model tends to create more false-positive investigation work. **There is not enough information yet** to say which is better: measure missed-incident cost, false-investigation cost, capacity, and the downstream workflow.
+**Answer key:** No; the error describes only the fixed evaluation horizon. Underforecasting can risk saturation while overforecasting can reserve unused capacity, so select and weight errors for the decision. Product launches, seasonality, eligibility changes, or instrumentation changes can invalidate the baseline.
 
 ## Expected takeaway
 
@@ -103,3 +102,5 @@ A plausible chart is not evidence; measured error is, but even accuracy does not
 ## Chapter summary
 
 Chapter 32 turns established Harbor telemetry into a reproducible engineering decision while maintaining evidence boundaries. The next step is not “adopt AI”; it is to test whether the chosen intervention changes a predeclared outcome without violating a guardrail.
+
+[Previous chapter](chapter-31-anomaly-detection-without-magic.md) | [Contents](../../CONTENTS.md) | [Next chapter](chapter-33-ml-assisted-incident-prioritization.md)
