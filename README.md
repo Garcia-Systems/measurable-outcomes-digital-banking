@@ -8,7 +8,7 @@ This executable textbook teaches developers to connect engineering work to measu
 
 ## Curriculum status
 
-**Part I, Chapters 0–4, is implemented** as substantive lessons and one coherent measurement lab. **Chapters 5–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
+**Parts I and II, Chapters 0–9, are implemented** as substantive lessons and coherent measurement labs. **Chapters 10–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
 
 ## The outcome chain
 
@@ -19,7 +19,7 @@ Engineering activity → system change → observable metric → measured outcom
 
 An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Part I quick start
+## Parts I and II quick start
 
 Python 3.10+ and the standard library are the only requirements. Run from the repository root:
 
@@ -29,6 +29,11 @@ python3 scripts/measure_baseline.py
 python3 scripts/choose_metric.py --answer completion_rate
 python3 scripts/evaluate_candidate.py
 python3 scripts/run_experiment.py
+python3 scripts/measure_completion.py
+python3 scripts/analyze_funnel.py
+python3 scripts/analyze_completion_time.py
+python3 scripts/compare_experience.py
+python3 scripts/classify_claims.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -44,6 +49,8 @@ The labs reuse committed observations in `data/synthetic/part1`. Results are det
 
 The original `python3 scripts/measure_api_baseline.py` exercise remains available for compatibility.
 
+Part II extends the same utilities with deterministic digital-application events, task completion, funnel conversion and abandonment, median/p95 and stage timing, controlled before/after criteria, and evidence-strength classification. Regenerate its committed observations with `python3 scripts/generate_member_journey.py`.
+
 ## Repository map
 
 - `chapters/` — eight parts and Chapters 0–39.
@@ -56,4 +63,4 @@ The original `python3 scripts/measure_api_baseline.py` exercise remains availabl
 
 ## Safety and scope
 
-Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Part I demonstrates evidence-bounded technical measurement. Production integrations, claims about real institutions, and Chapters 5–39 are out of scope.
+Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–II demonstrate evidence-bounded technical and member-experience measurement. Production integrations, claims about real institutions, and Chapters 10–39 are out of scope.

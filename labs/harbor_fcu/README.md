@@ -11,3 +11,10 @@ Harbor Federal Credit Union and every artifact here are fictional. Part I uses t
 5. Compare the baseline with a reliable candidate (`run_experiment.py`).
 
 This remains one evolving environment, not five chapter applications. Future chapters should extend its models and reports while preserving raw observations, measurement conditions, and evidence-bounded claims.
+## Part II: digital application journey
+
+Part II adds a deterministic, entirely fictional account-application journey in
+`data/synthetic/part2`. Reusable event, funnel, timing, and comparison calculations
+live in `src/harbor_fcu/member_experience.py`; the five learner-facing commands are
+documented in the repository README. This remains an educational simulation, not a
+production analytics platform.

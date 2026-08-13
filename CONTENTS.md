@@ -10,13 +10,13 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 4. [Chapter 3: Targets, Thresholds, and Success Criteria](chapters/part-01-foundations/chapter-03-targets-thresholds-and-success-criteria.md)
 5. [Chapter 4: Before-and-After Measurement](chapters/part-01-foundations/chapter-04-before-after-and-the-limits-of-causality.md)
 
-## Part 2 — Member Experience and Conversion
+## Part 2 — Member Experience and Conversion — **implemented**
 
-6. [Chapter 5: Mapping the Digital Member Journey](chapters/part-02-member-experience/chapter-05-mapping-the-digital-member-journey.md)
-7. [Chapter 6: Task Completion Without Vanity Metrics](chapters/part-02-member-experience/chapter-06-task-completion-without-vanity-metrics.md)
-8. [Chapter 7: Diagnosing Funnel Abandonment](chapters/part-02-member-experience/chapter-07-diagnosing-funnel-abandonment.md)
-9. [Chapter 8: Navigation Experiments and Responsible Conversion Claims](chapters/part-02-member-experience/chapter-08-navigation-experiments-and-responsible-conversion-claims.md)
-10. [Chapter 9: Mobile Performance as a Member-Experience Signal](chapters/part-02-member-experience/chapter-09-mobile-performance-as-a-member-experience-signal.md)
+6. [Chapter 5: Measuring Digital Task Completion](chapters/part-02-member-experience/chapter-05-mapping-the-digital-member-journey.md)
+7. [Chapter 6: Funnels and Abandonment](chapters/part-02-member-experience/chapter-06-task-completion-without-vanity-metrics.md)
+8. [Chapter 7: Measuring Friction and Time to Complete](chapters/part-02-member-experience/chapter-07-diagnosing-funnel-abandonment.md)
+9. [Chapter 8: Measuring an Experience Improvement](chapters/part-02-member-experience/chapter-08-navigation-experiments-and-responsible-conversion-claims.md)
+10. [Chapter 9: From Member Metrics to Business Claims](chapters/part-02-member-experience/chapter-09-mobile-performance-as-a-member-experience-signal.md)
 
 ## Part 3 — APIs and Fintech Integrations
 
