@@ -2,13 +2,13 @@
 
 The executable textbook follows one evolving simulation at the fictional Harbor Federal Credit Union (Harbor FCU).
 
-## Part 1 — Foundations of Measurable Outcomes
+## Part 1 — Foundations of Measurable Outcomes — **implemented**
 
-1. [Chapter 0: From Shipping Code to Producing Outcomes](chapters/part-01-foundations/chapter-00-from-shipping-code-to-producing-outcomes.md)
-2. [Chapter 1: Metrics, KPIs, and Service-Level Indicators](chapters/part-01-foundations/chapter-01-metrics-kpis-and-service-level-indicators.md)
-3. [Chapter 2: Baselines, Targets, and Measurement Windows](chapters/part-01-foundations/chapter-02-baselines-targets-and-measurement-windows.md)
-4. [Chapter 3: Instrumentation That Answers Questions](chapters/part-01-foundations/chapter-03-instrumentation-that-answers-questions.md)
-5. [Chapter 4: Before, After, and the Limits of Causality](chapters/part-01-foundations/chapter-04-before-after-and-the-limits-of-causality.md)
+1. [Chapter 0: From Code to Outcomes](chapters/part-01-foundations/chapter-00-from-code-to-outcomes.md)
+2. [Chapter 1: Establishing a Baseline](chapters/part-01-foundations/chapter-01-establishing-a-baseline.md)
+3. [Chapter 2: Choosing Metrics That Matter](chapters/part-01-foundations/chapter-02-choosing-metrics-that-matter.md)
+4. [Chapter 3: Targets, Thresholds, and Success Criteria](chapters/part-01-foundations/chapter-03-targets-thresholds-and-success-criteria.md)
+5. [Chapter 4: Before-and-After Measurement](chapters/part-01-foundations/chapter-04-before-after-and-the-limits-of-causality.md)
 
 ## Part 2 — Member Experience and Conversion
 
