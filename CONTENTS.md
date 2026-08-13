@@ -42,13 +42,13 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 24. [Chapter 23: Finding Backend Bottlenecks Across Layers](chapters/part-05-databases/chapter-23-finding-backend-bottlenecks-across-layers.md)
 25. [Chapter 24: Proving Performance Improvements Hold](chapters/part-05-databases/chapter-24-proving-performance-improvements-hold.md)
 
-## Part 6 — Testing, Security, and Delivery
+## Part 6 — Testing, Security, and Delivery — **implemented**
 
-26. [Chapter 25: Unit Tests as Fast Outcome Guardrails](chapters/part-06-testing-security-delivery/chapter-25-unit-tests-as-fast-outcome-guardrails.md)
-27. [Chapter 26: Integration Tests at System Boundaries](chapters/part-06-testing-security-delivery/chapter-26-integration-tests-at-system-boundaries.md)
-28. [Chapter 27: Regression Prevention and Defect Escape](chapters/part-06-testing-security-delivery/chapter-27-regression-prevention-and-defect-escape.md)
-29. [Chapter 28: Secure Inputs and Measurable Risk Reduction](chapters/part-06-testing-security-delivery/chapter-28-secure-inputs-and-measurable-risk-reduction.md)
-30. [Chapter 29: Deployment Readiness and Review Quality](chapters/part-06-testing-security-delivery/chapter-29-deployment-readiness-and-review-quality.md)
+26. [Chapter 25: Measuring Automated Testing](chapters/part-06-testing-security-delivery/chapter-25-unit-tests-as-fast-outcome-guardrails.md)
+27. [Chapter 26: Measuring Regression Prevention and Defect Escape](chapters/part-06-testing-security-delivery/chapter-26-integration-tests-at-system-boundaries.md)
+28. [Chapter 27: Measuring Secure Coding Controls](chapters/part-06-testing-security-delivery/chapter-27-regression-prevention-and-defect-escape.md)
+29. [Chapter 28: Code Review, CI, and Deployment Readiness](chapters/part-06-testing-security-delivery/chapter-28-secure-inputs-and-measurable-risk-reduction.md)
+30. [Chapter 29: Measuring a Delivery Improvement](chapters/part-06-testing-security-delivery/chapter-29-deployment-readiness-and-review-quality.md)
 
 ## Part 7 — Analytics, Automation, and Machine Learning
 
