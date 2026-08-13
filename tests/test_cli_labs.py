@@ -12,6 +12,11 @@ class CliLabsTest(unittest.TestCase):
           'scripts/measure_baseline.py':'p95 latency: 1250 ms',
           'scripts/evaluate_candidate.py':'Overall: FAIL',
           'scripts/run_experiment.py':'Relative change: +11.11%',
+          'scripts/measure_completion.py':'Completion rate: 69.1%',
+          'scripts/analyze_funnel.py':'Largest drop-off: before verification_completed',
+          'scripts/analyze_completion_time.py':'p95 completion: 16.18 minutes',
+          'scripts/compare_experience.py':'completion_change_points: PASS',
+          'scripts/classify_claims.py':'UNSUPPORTED CAUSAL CLAIM',
         }
         for script,expected in cases.items():
             with self.subTest(script=script):
