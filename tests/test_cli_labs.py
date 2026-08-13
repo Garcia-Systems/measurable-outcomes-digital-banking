@@ -32,6 +32,11 @@ class CliLabsTest(unittest.TestCase):
           'scripts/analyze_backend_workload.py':'N+1: queries/request=5',
           'scripts/simulate_backend_concurrency.py':'Corrected invalid final states: 0',
           'scripts/run_backend_experiment.py':'Queries/request',
+          'scripts/analyze_operations.py':'NorthstarPay     requests=100 error_rate=8.0%',
+          'scripts/detect_anomalies.py':'TP=3 FP=0 TN=13 FN=0',
+          'scripts/forecast_workload.py':'MAE=0.0 RMSE=0.0',
+          'scripts/prioritize_incidents.py':'SCORING MODEL',
+          'scripts/run_intelligence_experiment.py':'Workload Guardrail             PASS',
         }
         for script,expected in cases.items():
             with self.subTest(script=script):

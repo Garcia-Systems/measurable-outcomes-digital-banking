@@ -8,7 +8,7 @@ This executable textbook teaches developers to connect engineering work to measu
 
 ## Curriculum status
 
-**Parts I–VI, Chapters 0–29, are implemented** as substantive lessons and coherent measurement labs. **Chapters 30–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
+**Parts I–VII, Chapters 0–34, are implemented** as substantive lessons and coherent measurement labs. **Chapters 35–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
 
 ## The outcome chain
 
@@ -19,7 +19,7 @@ Engineering activity → system change → observable metric → measured outcom
 
 An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Parts I–VI quick start
+## Parts I–VII quick start
 
 Python 3.10+ and the standard library are the only requirements. Run from the repository root:
 
@@ -55,6 +55,11 @@ python3 scripts/run_security_validation.py
 python3 scripts/check_release_readiness.py
 python3 scripts/check_release_readiness.py --candidate invalid
 python3 scripts/run_delivery_experiment.py
+python3 scripts/analyze_operations.py
+python3 scripts/detect_anomalies.py
+python3 scripts/forecast_workload.py
+python3 scripts/prioritize_incidents.py
+python3 scripts/run_intelligence_experiment.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -80,6 +85,8 @@ Part V adds an in-memory deterministic SQLite fixture, repeated query timing, qu
 
 Part VI adds regression-detection experiments, known-defect detection and escape rates, defensive transfer and safe-logging fixtures, a local release-readiness gate, and a predeclared before/after delivery experiment. The improved synthetic pipeline catches more defined defects at the cost of longer validation; this supports bounded quality claims, not claims of complete security or production infallibility. See the [Part VI laboratory guide](labs/harbor_fcu/part-06-testing-security-delivery.md).
 
+Part VII reuses Harbor API, vendor, database, deployment, alert, and incident telemetry for descriptive grouping, baseline anomaly detection, capacity forecasting, and explainable incident scoring. It compares rules and scoring on identical ground truth, then measures the downstream investigation queue, MTTD, and MTTR in a controlled simulation. The implementation is standard-library only: it demonstrates that predictions are inputs to action—not business outcomes—and does not require an external AI service. See the [Part VII laboratory guide](labs/harbor_fcu/part-07-analytics-automation-ml.md).
+
 ## Repository map
 
 - `chapters/` — eight parts and Chapters 0–39.
@@ -92,4 +99,4 @@ Part VI adds regression-detection experiments, known-defect detection and escape
 
 ## Safety and scope
 
-Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–VI demonstrate evidence-bounded technical, member-experience, integration, incident-response, database, backend, testing, security-control, and delivery measurement. Production integrations, claims about real institutions, and Chapters 30–39 are out of scope.
+Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–VII demonstrate evidence-bounded technical, member-experience, integration, incident-response, database, backend, testing, security-control, delivery, analytics, and intelligent-workflow measurement. Production integrations, claims about real institutions, and Chapters 35–39 are out of scope.

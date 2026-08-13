@@ -1,10 +1,10 @@
-# Chapter 31: Detecting Anomalies
+# Chapter 32: Forecasting and Capacity Signals
 
 > **Implementation status:** Complete, deterministic laboratory; Harbor Federal Credit Union (Harbor FCU) is fictional.
 
 ## Learning objectives
 
-- Explain how compare failed-verification windows with a fixed historical baseline and a three-standard-deviation score.
+- Explain how forecast digital requests per hour with a recent average and linear trend.
 - Calculate and interpret the chapter metrics from synthetic ground truth.
 - Separate a technical measurement from engineering workflow and downstream claims.
 - Prefer direct measurement and rules unless prediction demonstrates incremental value.
@@ -22,7 +22,7 @@ Operational data → measurement → pattern → prediction/detection
                  → engineering decision → action → measured outcome
 ```
 
-A prediction is not the outcome. High sensitivity detects more incidents but can create false investigations; specificity can miss incidents.
+A prediction is not the outcome. A plausible chart is not evidence; measured error is, but even accuracy does not prove savings.
 
 ### Rules before ML
 
@@ -39,11 +39,11 @@ Ask: Can SQL answer it? Can descriptive analytics answer it? Can a threshold sol
 
 ## Measurable-outcome concept
 
-Known incident labels make tp, fp, tn, fn, precision, and recall measurable. Report the population, numerator, denominator, window, threshold, and limitations. Technical improvement supports only a bounded technical claim until the response workflow is evaluated.
+Mae and rmse compare predictions with held-out observations. Report the population, numerator, denominator, window, threshold, and limitations. Technical improvement supports only a bounded technical claim until the response workflow is evaluated.
 
 ## Planned Harbor FCU scenario
 
-The implemented scenario uses the shared Harbor environment to compare failed-verification windows with a fixed historical baseline and a three-standard-deviation score. “Planned” remains in this heading for the textbook's structural checker; the laboratory below is implemented.
+The implemented scenario uses the shared Harbor environment to forecast digital requests per hour with a recent average and linear trend. “Planned” remains in this heading for the textbook's structural checker; the laboratory below is implemented.
 
 ## Metrics to measure
 
@@ -59,10 +59,10 @@ Small functions in `src/harbor_fcu/intelligence.py` perform grouping, trends, mo
 
 ## Planned executable exercise
 
-Run the completed Chapter 31 laboratory:
+Run the completed Chapter 32 laboratory:
 
 ```bash
-python3 scripts/detect_anomalies.py
+python3 scripts/forecast_workload.py
 ```
 
 Then inspect the implementation and change one threshold locally. Predict which confusion-matrix cell changes before rerunning the test. The shared guide is in `labs/harbor_fcu/part-07-analytics-automation-ml.md`.
@@ -73,7 +73,7 @@ Observe the actual printed values rather than choosing a conclusion in advance. 
 
 ## Interpretation and engineering tradeoffs
 
-High sensitivity detects more incidents but can create false investigations; specificity can miss incidents. Correlation suggests an operational hypothesis, not cause. Segments may be too small; authored ground truth may be easier than production labels; drift can invalidate a baseline. Explain prioritization in terms engineers can inspect: high error rate, latency, affected workflows, dependency/database signals, or recent deployment.
+A plausible chart is not evidence; measured error is, but even accuracy does not prove savings. Correlation suggests an operational hypothesis, not cause. Segments may be too small; authored ground truth may be easier than production labels; drift can invalidate a baseline. Explain prioritization in terms engineers can inspect: high error rate, latency, affected workflows, dependency/database signals, or recent deployment.
 
 ## Evidence limitations
 
@@ -98,8 +98,8 @@ Tests cover calculations, deterministic scenarios, baseline/model fairness, down
 
 ## Expected takeaway
 
-High sensitivity detects more incidents but can create false investigations; specificity can miss incidents. Use the simplest adequate method, establish a baseline, compare fairly, and measure what people or systems do with the output.
+A plausible chart is not evidence; measured error is, but even accuracy does not prove savings. Use the simplest adequate method, establish a baseline, compare fairly, and measure what people or systems do with the output.
 
 ## Chapter summary
 
-Chapter 31 turns established Harbor telemetry into a reproducible engineering decision while maintaining evidence boundaries. The next step is not “adopt AI”; it is to test whether the chosen intervention changes a predeclared outcome without violating a guardrail.
+Chapter 32 turns established Harbor telemetry into a reproducible engineering decision while maintaining evidence boundaries. The next step is not “adopt AI”; it is to test whether the chosen intervention changes a predeclared outcome without violating a guardrail.
