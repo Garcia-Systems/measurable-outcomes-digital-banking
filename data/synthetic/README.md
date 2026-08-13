@@ -6,3 +6,7 @@ baseline and experiment windows; see its README for schema and provenance.
 `api_requests.csv` is the original 20-observation synthetic balance-API fixture.
 No fixture contains member identifiers or real financial data. Future generators
 must use deterministic seeds and document their schemas here.
+
+Part III observations are generated in memory from explicit scenario tables in
+`src/harbor_fcu/integrations.py`. Fixed operation IDs and UTC timestamps make the
+records reproducible and inspectable; no vendor data or network response is used.
