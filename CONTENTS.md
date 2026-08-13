@@ -58,7 +58,7 @@ The executable textbook follows one evolving simulation at the fictional Harbor 
 34. [Chapter 33: ML-Assisted Incident Prioritization](chapters/part-07-analytics-ml/chapter-33-ml-assisted-incident-prioritization.md)
 35. [Chapter 34: Does the Intelligence Actually Improve the Outcome?](chapters/part-07-analytics-ml/chapter-34-intelligent-alerting-with-human-guardrails.md)
 
-## Part 8 — Business Impact and Communicating Results — **planned**
+## Part 8 — Business Impact and Communicating Results — **implemented**
 
 36. [Chapter 35: Connecting Technical Outcomes to Operations](chapters/part-08-business-impact/chapter-35-connecting-technical-outcomes-to-operations.md)
 37. [Chapter 36: Member Experience, Adoption, and Causal Restraint](chapters/part-08-business-impact/chapter-36-member-experience-adoption-and-causal-restraint.md)
