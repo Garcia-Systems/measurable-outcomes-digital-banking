@@ -2,65 +2,58 @@
 
 ## From Code Changes to Member and Business Impact at Harbor Federal Credit Union
 
-This executable textbook teaches full-stack developers to connect engineering work to measurable technical, operational, member, and business outcomes. **Harbor Federal Credit Union (Harbor FCU) is entirely fictional.** Its members, systems, metrics, architecture, and results are synthetic teaching material created for this repository; they do not represent any real credit union or person.
+This executable textbook teaches developers to connect engineering work to measurable technical, operational, member, and business outcomes. **Harbor Federal Credit Union (Harbor FCU) is entirely fictional.** Every member, account, system, transaction, metric, log, incident, and scenario is synthetic; none describes a real institution or person.
 
-> **Don't stop at “What did we build?” Ask “What changed, how do we know, and why does it matter?”**
+> Don't stop at “What did we build?” Ask “What changed, how do we know, and why does it matter?”
+
+## Curriculum status
+
+**Part I, Chapters 0–4, is implemented** as substantive lessons and one coherent measurement lab. **Chapters 5–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
 
 ## The outcome chain
 
-Every lab uses the same reasoning model:
-
-**Engineering activity → system change → observable metric → member/operational effect → business outcome**
-
-An **output** is what was built or changed. A **metric** is an observation. An **outcome** is the measured improvement. **Impact** explains why that improvement matters. For example:
-
-| Layer | Example |
-|---|---|
-| Output | Optimized a database query |
-| Metric | p95 query latency |
-| Baseline | 820 ms |
-| After | 135 ms |
-| Outcome | Faster data retrieval |
-| Potential impact | Faster member-facing workflows and reduced infrastructure load |
-
-The last statement is deliberately a *potential* impact until evidence connects the technical change to member or business results. The book distinguishes correlation from causation and never treats a plausible benefit as a proven one.
-
-## One evolving, executable lab
-
-Across eight parts and 40 chapters (0–39), learners evolve one local Harbor FCU simulation. Its generated datasets will cover fictional members, accounts, transactions, sessions, funnels, APIs, integrations, queries, logs, errors, incidents, tests, deployments, and analytics events. Exercises follow one loop:
-
 ```text
-Observe baseline → Identify problem → Make engineering change
-→ Run experiment/test → Measure again → Compare → Explain outcome
+Engineering activity → system change → observable metric → measured outcome
+                     → member / operational effect → potential business impact
 ```
 
-The curriculum progresses from measurement foundations, through member experience, integrations, reliability, databases, testing/security/delivery, and grounded analytics/ML, to responsible business communication. See [the complete contents](CONTENTS.md). Chapter files are intentionally concise implementation briefs: later work will turn them into lessons without creating 40 disconnected applications.
+An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Quick start: measure a baseline
+## Part I quick start
 
-Python 3.10+ is the only requirement for the initial exercise; it uses the standard library.
+Python 3.10+ and the standard library are the only requirements. Run from the repository root:
 
 ```bash
-python3 scripts/measure_api_baseline.py
+python3 scripts/introduce_measurement.py
+python3 scripts/measure_baseline.py
+python3 scripts/choose_metric.py --answer completion_rate
+python3 scripts/evaluate_candidate.py
+python3 scripts/run_experiment.py
 python3 -m unittest discover -s tests -v
 ```
 
-The first command reads synthetic API observations from `data/synthetic/api_requests.csv` and reports request count, success rate, mean latency, and p95 latency. This is an observation, not evidence that a particular engineering change caused an outcome.
+The labs reuse committed observations in `data/synthetic/part1`. Results are deterministic. The deliberately fast Chapter 3 candidate reports overall `FAIL` because it violates reliability guardrails; that is a successful experiment, not a command failure.
 
-## Expected technology
+## What Part I provides
 
-Later labs will add Python measurement, simulation, and lightweight ML; SQL/MySQL-compatible database exercises; PHP REST/SOAP and server-side examples; JavaScript/TypeScript, HTML, and CSS member experiences; and command-line automated tests. Labs remain local, small, and free of paid cloud services, proprietary banking systems, and real financial data.
+- Reusable loaders, nearest-rank percentiles, rates, comparisons, and threshold evaluation in `src/harbor_fcu/measurement.py`.
+- A small structured measurement report that later Parts can extend.
+- Matched verification baseline, unsafe fast candidate, and reliable candidate scenarios.
+- Conceptual and executable exercises with answer keys in each chapter.
+- Automated calculation, scenario, CLI, curriculum, and Markdown-link checks.
+
+The original `python3 scripts/measure_api_baseline.py` exercise remains available for compatibility.
 
 ## Repository map
 
-- `chapters/` — eight numbered parts and 40 chapter briefs.
-- `labs/harbor_fcu/` — the shared simulation's fixtures and future lab modules.
-- `data/synthetic/` — generated, fictional data only.
-- `src/harbor_fcu/` — reusable simulation and measurement code.
+- `chapters/` — eight parts and Chapters 0–39.
+- `labs/harbor_fcu/` — shared simulation notes.
+- `data/synthetic/` — generated or hand-authored fictional observations and provenance.
+- `src/harbor_fcu/` — reusable measurement/simulation code.
 - `scripts/` — learner-facing commands.
-- `tests/` — executable and structural checks.
-- `docs/` — authoring and data conventions for future chapters.
+- `tests/` — calculation, scenario, command, and structural checks.
+- `docs/` — authoring and data conventions.
 
 ## Safety and scope
 
-Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal data. Synthetic identifiers must be obviously fictional. This scaffold designs the complete curriculum and proves its execution pattern; full lessons, production integrations, and later-chapter exercises are intentionally deferred.
+Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Part I demonstrates evidence-bounded technical measurement. Production integrations, claims about real institutions, and Chapters 5–39 are out of scope.
