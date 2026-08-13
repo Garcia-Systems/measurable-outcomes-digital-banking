@@ -8,7 +8,7 @@ This executable textbook teaches developers to connect engineering work to measu
 
 ## Curriculum status
 
-**Parts I–IV, Chapters 0–19, are implemented** as substantive lessons and coherent measurement labs. **Chapters 20–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
+**Parts I–V, Chapters 0–24, are implemented** as substantive lessons and coherent measurement labs. **Chapters 25–39 remain planned scaffolds** and structurally intact; their implementation is intentionally deferred. See [the complete contents](CONTENTS.md).
 
 ## The outcome chain
 
@@ -19,7 +19,7 @@ Engineering activity → system change → observable metric → measured outcom
 
 An output is what changed, a metric is an observation, and an outcome is measured change. A downstream impact remains *potential* until evidence connects it. For example, a p95 decrease supports “the API became faster under the measured workload”; it does not by itself support “revenue increased.”
 
-## Parts I–IV quick start
+## Parts I–V quick start
 
 Python 3.10+ and the standard library are the only requirements. Run from the repository root:
 
@@ -44,6 +44,11 @@ python3 scripts/explore_observability.py
 python3 scripts/investigate_incident.py
 python3 scripts/measure_incident_response.py
 python3 scripts/run_reliability_experiment.py
+python3 scripts/measure_query_performance.py
+python3 scripts/compare_database_index.py
+python3 scripts/analyze_backend_workload.py
+python3 scripts/simulate_backend_concurrency.py
+python3 scripts/run_backend_experiment.py
 python3 -m unittest discover -s tests -v
 ```
 
@@ -65,6 +70,8 @@ Part III adds network-free fictional integrations: ClearVerify REST member verif
 
 Part IV adds deterministic application requests, component timing, structured privacy-conscious logs, correlated request/operation identifiers, health evidence, alert windows, and incident records. Its five laboratories measure useful-work availability, endpoint reliability, alert sensitivity and false positives, chronological incident diagnosis, MTTD/MTTR, and a predeclared before/after incident-response experiment. In this repository MTTD is incident start to detection, while MTTR is incident start to useful-service restoration.
 
+Part V adds an in-memory deterministic SQLite fixture, repeated query timing, query-plan inspection, an index before/after experiment, backend component/workload analysis, N+1 query-count instrumentation, concurrency and idempotency guardrails, normalized result hashing, and a predeclared optimization capstone. Wall-clock values are educational observations; deterministic plans, work counters, modeled workload values, and correctness checks keep CI portable.
+
 ## Repository map
 
 - `chapters/` — eight parts and Chapters 0–39.
@@ -77,4 +84,4 @@ Part IV adds deterministic application requests, component timing, structured pr
 
 ## Safety and scope
 
-Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–IV demonstrate evidence-bounded technical, member-experience, integration, and incident-response measurement. Production integrations, claims about real institutions, and Chapters 20–39 are out of scope.
+Never add real member, customer, employee, credential, production, vendor-confidential, or institution-internal information. Parts I–V demonstrate evidence-bounded technical, member-experience, integration, incident-response, database, and backend measurement. Production integrations, claims about real institutions, and Chapters 25–39 are out of scope.

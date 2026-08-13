@@ -15,3 +15,6 @@ Part IV operational requests, structured logs, alert windows, and incident recor
 are generated from explicit fixtures in `src/harbor_fcu/reliability.py`. They use
 UTC timestamps and opaque request/operation identifiers. They contain no names,
 account numbers, credentials, balances, request bodies, or production telemetry.
+Part V relational records are generated deterministically in memory by
+`src/harbor_fcu/backend_performance.py`; no database file or real member data is
+committed. Recreating the fixture yields identical entity counts and values.
