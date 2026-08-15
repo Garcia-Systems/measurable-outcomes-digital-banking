@@ -1,5 +1,7 @@
 # Chapter 6: Funnels and Abandonment
 
+![Funnels and Abandonment illustration](../../images/chapters/chapter-06.png)
+
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
 

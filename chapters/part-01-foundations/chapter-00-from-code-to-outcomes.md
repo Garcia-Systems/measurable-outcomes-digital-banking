@@ -1,5 +1,7 @@
 # Chapter 0: From Code to Outcomes
 
+![From Code to Outcomes illustration](../../images/chapters/chapter-00.png)
+
 > **Status:** Implemented. Every Harbor Federal Credit Union (Harbor FCU) observation in this chapter is fictional and synthetic.
 
 ## Learning objectives

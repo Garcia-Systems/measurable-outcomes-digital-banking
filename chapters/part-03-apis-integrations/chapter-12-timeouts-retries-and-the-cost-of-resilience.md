@@ -1,5 +1,7 @@
 # Chapter 12: Timeouts, Retries, and Recoverability
 
+![Timeouts, Retries, and Recoverability illustration](../../images/chapters/chapter-12.png)
+
 > **Implemented:** This chapter uses only deterministic, synthetic behavior for the fictional Harbor Federal Credit Union (Harbor FCU).
 
 ## Learning objectives

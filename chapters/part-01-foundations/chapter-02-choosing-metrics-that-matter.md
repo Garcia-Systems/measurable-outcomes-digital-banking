@@ -1,5 +1,7 @@
 # Chapter 2: Choosing Metrics That Matter
 
+![Choosing Metrics That Matter illustration](../../images/chapters/chapter-02.png)
+
 > **Status:** Implemented. The institution and examples are fictional.
 
 ## Learning objectives

@@ -1,5 +1,7 @@
 # Chapter 35: Connecting Technical Metrics to Operational Outcomes
 
+![Connecting Technical Metrics to Operational Outcomes illustration](../../images/chapters/chapter-35.png)
+
 > **Implementation status:** Complete deterministic laboratory. Harbor Federal Credit Union (Harbor FCU), its vendors, people, accounts, transactions, and observations are entirely fictional and synthetic.
 
 ## Learning objectives

@@ -1,5 +1,7 @@
 # Chapter 33: ML-Assisted Incident Prioritization
 
+![ML-Assisted Incident Prioritization illustration](../../images/chapters/chapter-33.png)
+
 > **Implementation status:** Complete, deterministic laboratory; Harbor Federal Credit Union (Harbor FCU) is fictional.
 
 ## Learning objectives

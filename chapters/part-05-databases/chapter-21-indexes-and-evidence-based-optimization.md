@@ -1,5 +1,7 @@
 # Chapter 21: Indexes and Evidence-Based Optimization
 
+![Indexes and Evidence-Based Optimization illustration](../../images/chapters/chapter-21.png)
+
 > **Implementation status:** Complete; the SQLite database is disposable and synthetic.
 
 ## Learning objectives

@@ -1,5 +1,7 @@
 # Chapter 8: Measuring an Experience Improvement
 
+![Measuring an Experience Improvement illustration](../../images/chapters/chapter-08.png)
+
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
 

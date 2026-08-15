@@ -1,5 +1,7 @@
 # Chapter 37: Cost, Efficiency, and Business Value
 
+![Cost, Efficiency, and Business Value illustration](../../images/chapters/chapter-37.png)
+
 > **Implementation status:** Complete deterministic laboratory. Harbor Federal Credit Union (Harbor FCU), its vendors, people, accounts, transactions, and observations are entirely fictional and synthetic.
 
 ## Learning objectives

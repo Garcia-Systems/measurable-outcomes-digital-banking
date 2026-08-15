@@ -1,5 +1,7 @@
 # Chapter 32: Forecasting and Capacity Signals
 
+![Forecasting and Capacity Signals illustration](../../images/chapters/chapter-32.png)
+
 > **Implementation status:** Complete, deterministic laboratory; Harbor Federal Credit Union (Harbor FCU) is fictional.
 
 ## Learning objectives

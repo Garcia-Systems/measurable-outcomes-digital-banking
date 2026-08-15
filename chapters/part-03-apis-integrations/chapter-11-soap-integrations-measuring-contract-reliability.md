@@ -1,5 +1,7 @@
 # Chapter 11: Latency, Percentiles, and Tail Performance
 
+![Latency, Percentiles, and Tail Performance illustration](../../images/chapters/chapter-11.png)
+
 > **Implemented:** This chapter uses only deterministic, synthetic behavior for the fictional Harbor Federal Credit Union (Harbor FCU).
 
 ## Learning objectives

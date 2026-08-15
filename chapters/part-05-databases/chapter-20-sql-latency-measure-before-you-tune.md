@@ -1,5 +1,7 @@
 # Chapter 20: Measuring Query Performance
 
+![Measuring Query Performance illustration](../../images/chapters/chapter-20.png)
+
 > **Implementation status:** Complete. All people, accounts, and activity are synthetic.
 
 ## Learning objectives

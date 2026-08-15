@@ -1,5 +1,7 @@
 # Chapter 24: Measuring a Backend Optimization
 
+![Measuring a Backend Optimization illustration](../../images/chapters/chapter-24.png)
+
 > **Implementation status:** Complete Part V capstone using entirely synthetic data.
 
 ## Learning objectives

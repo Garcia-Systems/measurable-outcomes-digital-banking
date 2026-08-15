@@ -1,5 +1,7 @@
 # Chapter 16: Logs, Metrics, and Observability
 
+![Logs, Metrics, and Observability illustration](../../images/chapters/chapter-16.png)
+
 ## Learning objectives
 
 - Explain the different questions answered by metrics, logs, health checks, alerts, and traces/correlation.

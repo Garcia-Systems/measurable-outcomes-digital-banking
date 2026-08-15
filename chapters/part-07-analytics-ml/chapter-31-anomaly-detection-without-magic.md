@@ -1,5 +1,7 @@
 # Chapter 31: Detecting Anomalies
 
+![Detecting Anomalies illustration](../../images/chapters/chapter-31.png)
+
 > **Implementation status:** Complete, deterministic laboratory; Harbor Federal Credit Union (Harbor FCU) is fictional.
 
 ## Learning objectives

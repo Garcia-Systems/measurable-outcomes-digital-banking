@@ -1,5 +1,7 @@
 # Chapter 9: From Member Metrics to Business Claims
 
+![From Member Metrics to Business Claims illustration](../../images/chapters/chapter-09.png)
+
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
 

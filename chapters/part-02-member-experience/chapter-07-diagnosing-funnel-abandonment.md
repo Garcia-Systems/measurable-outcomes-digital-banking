@@ -1,5 +1,7 @@
 # Chapter 7: Measuring Friction and Time to Complete
 
+![Measuring Friction and Time to Complete illustration](../../images/chapters/chapter-07.png)
+
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
 

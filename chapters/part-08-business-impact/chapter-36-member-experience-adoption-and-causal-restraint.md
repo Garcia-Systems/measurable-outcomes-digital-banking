@@ -1,5 +1,7 @@
 # Chapter 36: Measuring Member and Self-Service Outcomes
 
+![Measuring Member and Self-Service Outcomes illustration](../../images/chapters/chapter-36.png)
+
 > **Implementation status:** Complete deterministic laboratory. Harbor Federal Credit Union (Harbor FCU), its vendors, people, accounts, transactions, and observations are entirely fictional and synthetic.
 
 ## Learning objectives

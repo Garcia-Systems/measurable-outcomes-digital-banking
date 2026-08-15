@@ -1,5 +1,7 @@
 # Chapter 15: Measuring Application Reliability
 
+![Measuring Application Reliability illustration](../../images/chapters/chapter-15.png)
+
 Part IV follows an entirely synthetic Harbor Federal Credit Union (Harbor FCU) service from normal behavior through failure, detection, investigation, repair, recovery, and measurement.
 
 > Reliability engineering is not simply fixing failures. It reduces how often failures occur, how much they affect users, and how long detection and recovery take.
