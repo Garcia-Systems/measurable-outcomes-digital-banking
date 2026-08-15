@@ -1,5 +1,7 @@
 # Chapter 3: Targets, Thresholds, and Success Criteria
 
+![Targets, Thresholds, and Success Criteria illustration](../../images/chapters/chapter-03.png)
+
 > **Status:** Implemented with a deliberately unsuccessful synthetic candidate.
 
 ## Learning objectives

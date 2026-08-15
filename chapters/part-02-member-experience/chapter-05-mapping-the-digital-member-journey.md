@@ -1,5 +1,7 @@
 # Chapter 5: Measuring Digital Task Completion
 
+![Measuring Digital Task Completion illustration](../../images/chapters/chapter-05.png)
+
 > **Status:** Implemented. All Harbor Federal Credit Union (Harbor FCU) sessions and events in this chapter are fictional and synthetic.
 
 

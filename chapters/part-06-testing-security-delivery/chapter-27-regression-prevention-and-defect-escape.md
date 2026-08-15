@@ -1,5 +1,7 @@
 # Chapter 27: Measuring Secure Coding Controls
 
+![Measuring Secure Coding Controls illustration](../../images/chapters/chapter-27.png)
+
 > **Synthetic-data notice:** Harbor Federal Credit Union, its releases, users, defects, transfers, and security cases are fictional.
 
 ## Learning objectives

@@ -1,5 +1,7 @@
 # Chapter 14: Measuring an Integration Improvement
 
+![Measuring an Integration Improvement illustration](../../images/chapters/chapter-14.png)
+
 > **Implemented:** This chapter uses only deterministic, synthetic behavior for the fictional Harbor Federal Credit Union (Harbor FCU).
 
 ## Learning objectives

@@ -1,5 +1,7 @@
 # Chapter 39: Capstone: The Measurable Outcomes Engineering Review
 
+![Capstone: The Measurable Outcomes Engineering Review illustration](../../images/chapters/chapter-39.png)
+
 > **Implementation status:** Complete deterministic laboratory. Harbor Federal Credit Union (Harbor FCU), its vendors, people, accounts, transactions, and observations are entirely fictional and synthetic.
 
 ## Learning objectives

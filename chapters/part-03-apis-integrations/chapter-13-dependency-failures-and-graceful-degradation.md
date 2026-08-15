@@ -1,5 +1,7 @@
 # Chapter 13: REST, SOAP, and Integration Adapters
 
+![REST, SOAP, and Integration Adapters illustration](../../images/chapters/chapter-13.png)
+
 > **Implemented:** This chapter uses only deterministic, synthetic behavior for the fictional Harbor Federal Credit Union (Harbor FCU).
 
 ## Learning objectives

@@ -1,5 +1,7 @@
 # Chapter 18: Measuring Detection and Recovery
 
+![Measuring Detection and Recovery illustration](../../images/chapters/chapter-18.png)
+
 ## Learning objectives
 
 - Reconstruct incident start, detection, investigation, mitigation, and restoration milestones.

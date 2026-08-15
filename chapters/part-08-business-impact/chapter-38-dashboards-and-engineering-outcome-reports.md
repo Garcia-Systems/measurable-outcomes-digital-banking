@@ -1,5 +1,7 @@
 # Chapter 38: Dashboards and Outcome Communication
 
+![Dashboards and Outcome Communication illustration](../../images/chapters/chapter-38.png)
+
 > **Implementation status:** Complete deterministic laboratory. Harbor Federal Credit Union (Harbor FCU), its vendors, people, accounts, transactions, and observations are entirely fictional and synthetic.
 
 ## Learning objectives

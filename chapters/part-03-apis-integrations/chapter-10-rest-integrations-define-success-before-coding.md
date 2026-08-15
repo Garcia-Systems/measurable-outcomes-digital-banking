@@ -1,5 +1,7 @@
 # Chapter 10: Measuring API Reliability
 
+![Measuring API Reliability illustration](../../images/chapters/chapter-10.png)
+
 > **Implemented:** This chapter uses only deterministic, synthetic behavior for the fictional Harbor Federal Credit Union (Harbor FCU).
 
 ## Learning objectives

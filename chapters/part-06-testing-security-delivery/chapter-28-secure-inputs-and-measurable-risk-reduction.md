@@ -1,5 +1,7 @@
 # Chapter 28: Code Review, CI, and Deployment Readiness
 
+![Code Review, CI, and Deployment Readiness illustration](../../images/chapters/chapter-28.png)
+
 > **Synthetic-data notice:** Harbor Federal Credit Union, its releases, users, defects, transfers, and security cases are fictional.
 
 ## Learning objectives

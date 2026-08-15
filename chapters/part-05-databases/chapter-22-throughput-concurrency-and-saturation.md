@@ -1,5 +1,7 @@
 # Chapter 22: Backend Throughput and Bottlenecks
 
+![Backend Throughput and Bottlenecks illustration](../../images/chapters/chapter-22.png)
+
 > **Implementation status:** Complete; modeled component time is deterministic teaching data.
 
 ## Learning objectives

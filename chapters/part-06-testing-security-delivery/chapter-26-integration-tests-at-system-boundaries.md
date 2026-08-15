@@ -1,5 +1,7 @@
 # Chapter 26: Measuring Regression Prevention and Defect Escape
 
+![Measuring Regression Prevention and Defect Escape illustration](../../images/chapters/chapter-26.png)
+
 > **Synthetic-data notice:** Harbor Federal Credit Union, its releases, users, defects, transfers, and security cases are fictional.
 
 ## Learning objectives

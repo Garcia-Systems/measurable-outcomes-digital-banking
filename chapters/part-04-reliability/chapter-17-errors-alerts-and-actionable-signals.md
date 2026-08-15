@@ -1,5 +1,7 @@
 # Chapter 17: Detecting and Diagnosing an Incident
 
+![Detecting and Diagnosing an Incident illustration](../../images/chapters/chapter-17.png)
+
 At 08:00 the synthetic Harbor FCU system is normal. At 08:12 transfer latency rises, at 08:15 errors rise, at 08:17 an alert fires, and at 08:20 investigation begins. The cause is deliberately not stated here: diagnosis starts with evidence, not a label.
 
 ## Learning objectives

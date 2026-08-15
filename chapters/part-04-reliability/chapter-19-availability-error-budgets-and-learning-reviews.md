@@ -1,5 +1,7 @@
 # Chapter 19: Measuring an Incident-Response Improvement
 
+![Measuring an Incident-Response Improvement illustration](../../images/chapters/chapter-19.png)
+
 This capstone evaluates a reliability-engineering change rather than asserting that “observability improved.” Harbor adds structured failure categories, shared request/operation IDs, a sustained error-rate alert, and an operational component view.
 
 ## Learning objectives

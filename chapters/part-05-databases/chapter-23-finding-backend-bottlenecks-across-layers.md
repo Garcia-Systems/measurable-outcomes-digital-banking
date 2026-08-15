@@ -1,5 +1,7 @@
 # Chapter 23: Correctness, Concurrency, and Performance
 
+![Correctness, Concurrency, and Performance illustration](../../images/chapters/chapter-23.png)
+
 > **Implementation status:** Complete. This is an educational reservation, not a banking ledger.
 
 ## Learning objectives

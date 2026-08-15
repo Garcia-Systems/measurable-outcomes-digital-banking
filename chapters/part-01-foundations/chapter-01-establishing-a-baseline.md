@@ -1,5 +1,7 @@
 # Chapter 1: Establishing a Baseline
 
+![Establishing a Baseline illustration](../../images/chapters/chapter-01.png)
+
 > **Status:** Implemented using only deterministic, synthetic Harbor FCU observations.
 
 ## Learning objectives

@@ -1,5 +1,7 @@
 # Chapter 4: Before-and-After Measurement
 
+![Before-and-After Measurement illustration](../../images/chapters/chapter-04.png)
+
 > **Status:** Implemented. This chapter brings Part I together with a controlled, entirely synthetic Harbor FCU experiment.
 
 ## Learning objectives

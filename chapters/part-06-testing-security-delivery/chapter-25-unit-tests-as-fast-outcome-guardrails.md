@@ -1,5 +1,7 @@
 # Chapter 25: Measuring Automated Testing
 
+![Measuring Automated Testing illustration](../../images/chapters/chapter-25.png)
+
 > **Synthetic-data notice:** Harbor Federal Credit Union, its releases, users, defects, transfers, and security cases are fictional.
 
 ## Learning objectives

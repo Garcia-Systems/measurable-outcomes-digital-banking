@@ -1,5 +1,7 @@
 # Chapter 30: From Operational Data to Engineering Insight
 
+![From Operational Data to Engineering Insight illustration](../../images/chapters/chapter-30.png)
+
 > **Implementation status:** Complete, deterministic laboratory; Harbor Federal Credit Union (Harbor FCU) is fictional.
 
 ## Learning objectives

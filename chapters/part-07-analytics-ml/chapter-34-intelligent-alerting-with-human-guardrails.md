@@ -1,5 +1,7 @@
 # Chapter 34: Does the Intelligence Actually Improve the Outcome?
 
+![Does the Intelligence Actually Improve the Outcome? illustration](../../images/chapters/chapter-34.png)
+
 > **Implementation status:** Complete, deterministic laboratory; Harbor Federal Credit Union (Harbor FCU) is fictional.
 
 ## Learning objectives
